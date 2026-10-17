@@ -13,4 +13,6 @@ Checks performed on the prepared package:
 - Full raw and processed market-data snapshots and full event-path arrays are excluded from the release.
 - The final paper matches the supplied final PDF byte for byte: `379d4064bc53f3ff0cb2a3b5197c1a8bfaa7555bc48b53fd368afb253d64fd74`.
 
-The interactive-script checks exercise chart data and control transitions in a DOM/Plotly harness; they do not certify browser rendering or WebGL support. Live GitHub Pages deployment and browser checks remain to be performed after repository creation and publication.
+GitHub publication completed on 17 October 2026. The research-check workflow and GitHub Pages deployment both succeeded for commit `f27db85838e5331168a36d56aeae0d4d0a1c5364`. All 243 uploaded file blobs matched the prepared package. The live landing page, graph gallery, three explorer pages, final PDF and both social thumbnails returned HTTP 200. The live PDF's SHA-256 matches the recorded final paper.
+
+The interactive-script checks exercise chart data and control transitions in a DOM/Plotly harness; they do not certify browser rendering or WebGL support. A final visual browser check was unavailable after the secure GitHub sign-in session became inaccessible. Published files, graph logic and live HTTP delivery were verified separately.
