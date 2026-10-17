@@ -1,0 +1,27 @@
+\section{Reproducibility and computational evidence}\label{app:reproduction}
+\subsection{Research files and execution record}
+The research package contains eight executed notebooks, the analytical Python modules, processed event panels, machine-readable output tables, figures, source manifests and the preserved documented-clock run. The notebook sequence moves from research design and public-data audit through synthetic validation, response estimation, lead--lag analysis, chronological transfer, robustness and synthesis. Its 36 code cells execute in fresh notebook namespaces and include fresh calculations checked against saved results.
+
+The analytical check suite contains 21 passing tests. They cover independent OLS normal-equation calculations, HC3 comparisons with leave-one-out influences, frozen-factor scaling, shared-sign bootstrap reproducibility, clean parameter recovery, zero-response and reversal cases, quote decoding, duplicate and missing-minute handling, bar endpoints, seasonal-clock boundaries and paired prediction-loss signs. These checks support implementation correctness within their tested conditions; they do not prove economic identification or market-wide data quality.
+
+The recorded environment uses Python 3.12.14, NumPy 2.3.5, pandas 2.2.3, SciPy 1.17.0, Matplotlib 3.10.8 and openpyxl 3.1.5. The offline interactive companion uses Plotly.js 3.1.0. Source files and fitted analytical objects are protected by the recorded corrected-development freeze. The paper assembly reads the completed research outputs without changing that analytical freeze.
+
+\subsection{Reproduction sequence}
+The default command \texttt{python scripts/reproduce.py} runs the analytical checks and regenerates the executed notebooks from the cached processed research. The full option \texttt{--full} reruns the simulation experiments and all corrected estimation stages from the processed bars. Exact raw-data reprocessing additionally requires the separate raw cache and the \texttt{--reprocess-raw} option. Raw file hashes are checked before parsing, and the existing model freeze is preserved rather than replaced by a newly dated record.
+
+The main results do not require a live data connection to inspect or reproduce from the processed panel. Fresh provider downloads can change over time and should be retained as a new snapshot rather than silently replacing the recorded source bytes. Raw-provider archives and derived quote panels also require a redistribution decision before public publication; free access alone is not evidence of permission for unrestricted redistribution.
+
+\subsection{Selected implementation excerpts}
+Code listing~\ref{code:clock} shows the source-clock mapping used in the corrected panel. The documented interpretation remains available as an explicit alternative for reconstructing the earlier run. The audited path obtains the European seasonal offset and then adds five hours, matching Equation~\ref{eq:19}.
+\input{generated/code-clock.tex}
+
+Code listing~\ref{code:hc3} shows the OLS and HC3 calculation used by the horizon and difference regressions. Nonfinite inputs, insufficient sample size, rank deficiency and unit leverage are rejected rather than silently producing an apparently valid interval. Matrix calculations operate on all supplied horizons using the same event design.
+\input{generated/code-hc3.tex}
+
+Code listing~\ref{code:wild} shows how one resampling sign per event is shared across the complete path. Re-estimating the bootstrap standard errors supplies the maximum-studentised reference used for the simultaneous band. This excerpt is included to make the dependence treatment inspectable, while the full reproducible source retains the associated validation and reporting decisions.
+\input{generated/code-wild.tex}
+
+\subsection{Interactive companion}
+The file \texttt{interactive-explorers.html} runs locally after download. Its three views are the empirical response surface, discrete observed event paths and synthetic diffusion laboratory. Asset, communication type and sample controls reveal the same results used in the paper; the insufficient 2023 response sample is displayed explicitly rather than filled with a fitted surface. The two-dimensional slice accompanies the three-dimensional empirical surface and preserves the relevant simultaneous band.
+
+Browser checks verify view changes, scientific axis labels, event selection, the synthetic quote-delay control, mobile layout and the absence of external network requests during use. The notebook review also provides downloadable standard notebook files, rendered equations and centred exhibit captions. Static figures and numerical tables remain the archival evidence when interactive rendering is unavailable.

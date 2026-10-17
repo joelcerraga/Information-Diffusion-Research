@@ -1,0 +1,35 @@
+[
+  {
+    "symbol": "NSXUSD",
+    "year": 2023,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2023",
+    "path": "data/raw/histdata/NSXUSD/2023.zip",
+    "status": "downloaded",
+    "bytes": 4285675,
+    "sha256": "0282f3b419c254d168c5dba86cdcfe6527f0d4ad32dd407a401d9367e2520ecc",
+    "retrieved_utc": "2026-10-16T19:40:08.749139+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2023,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2023",
+    "path": "data/raw/histdata/SPXUSD/2023.zip",
+    "status": "downloaded",
+    "bytes": 3991111,
+    "sha256": "ed12d6f59929101f2e09c2f1c5028f39ab8af3b36841b41532d13f7f68c3aef9",
+    "retrieved_utc": "2026-10-16T19:40:08.845451+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2023,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2023",
+    "path": "data/raw/histdata/EURUSD/2023.zip",
+    "status": "downloaded",
+    "bytes": 2919186,
+    "sha256": "26e41c4bccfd70f2c76ef7f3ffcba0e3b7097231927a41640f4a7c442815f34a",
+    "retrieved_utc": "2026-10-16T19:40:20.540377+00:00",
+    "previous_errors": []
+  }
+]

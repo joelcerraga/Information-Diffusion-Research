@@ -1,0 +1,287 @@
+[
+  {
+    "path": "data/raw/USMPD.xlsx",
+    "bytes": 198422,
+    "sha256": "f02bfcbf80cf597548d4fccb5a80b30cb1f4373a7d50e26fd1def097d43df1aa"
+  },
+  {
+    "path": "data/raw/dukascopy/EURUSD/2022/02/16/BID_candles_min_1.bi5",
+    "bytes": 12505,
+    "sha256": "05a6e1108608774428af14dd67a7fc0731439cd16295f660864dee186a75695f"
+  },
+  {
+    "path": "data/raw/dukascopy/EURUSD/2022/08/21/BID_candles_min_1.bi5",
+    "bytes": 12565,
+    "sha256": "55580b99b4948ce22020e10146940ac5262680dec9b1263e6a3cee4e9ca887fa"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2017/11/27/ASK_candles_min_1.bi5",
+    "bytes": 4793,
+    "sha256": "bcc78362954f9bf7616a3d71ffafca5a1da68b498ee33c872c74aee71ef429e9"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2017/11/27/BID_candles_min_1.bi5",
+    "bytes": 4889,
+    "sha256": "2f56d755bcc438c55369a3ae16c7a77d8569eb529e71b30850ec79971bead505"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/03/ASK_candles_min_1.bi5",
+    "bytes": 4979,
+    "sha256": "8ffc992c29da9168b95d96ae9d8012ee6fb1be88e0dc5d757df89d6671ff3b76"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/03/BID_candles_min_1.bi5",
+    "bytes": 4983,
+    "sha256": "3cd188d5fcadd08492290212474ea9afb0b06bf38458eabff19b05be7dad079c"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/24/ASK_candles_min_1.bi5",
+    "bytes": 5498,
+    "sha256": "6c6c8781b9b701e08aaca9d0fe92882d4dfd04bee9356fa8b879f80b3fda660f"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/24/BID_candles_min_1.bi5",
+    "bytes": 5521,
+    "sha256": "ccbf9fb7ea50dcf4ca3eadea23b64c6151cd1668cc2c9dd9be175945eafe7ac0"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/31/ASK_candles_min_1.bi5",
+    "bytes": 5299,
+    "sha256": "48d168d8cda049b6d226023223953e79cbe1df123ef5a84528cd839a7edfdb41"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2018/00/31/BID_candles_min_1.bi5",
+    "bytes": 5583,
+    "sha256": "de9510b08dbe0a4862f5545d25ed7febad1a1a9a499f0306f4398ffa8a478d13"
+  },
+  {
+    "path": "data/raw/dukascopy/QQQUSUSD/2022/08/21/BID_candles_min_1.bi5",
+    "bytes": 5557,
+    "sha256": "1fab3707159b41477b796f7cf14e8fa0dddfcf7a2b61fa11e44f3938dbb2048a"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2017/11/27/ASK_candles_min_1.bi5",
+    "bytes": 4993,
+    "sha256": "938f0bcc418aa22faa023170d7f7aef0fedff57bbb3461e5394a18c97a0f91db"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2017/11/27/BID_candles_min_1.bi5",
+    "bytes": 5002,
+    "sha256": "8776a3a83461047bfd48cdb1c87f4297320a3a6b93efd619722b1972f1cc8a1f"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/03/ASK_candles_min_1.bi5",
+    "bytes": 5078,
+    "sha256": "5d0737ec17fd6a1239b589567e2fd4fdf3b7a33bfb5bb90b184f475fe9c78e7b"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/03/BID_candles_min_1.bi5",
+    "bytes": 5022,
+    "sha256": "b450918459d672170ad6fbae4a3a25b6942231770da722e97156ac03e9f4124b"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/24/ASK_candles_min_1.bi5",
+    "bytes": 5519,
+    "sha256": "0e3290c0017456bc03adf8f4067dadb454e3f04d6e12a64ae472c802c8d1bf94"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/24/BID_candles_min_1.bi5",
+    "bytes": 5442,
+    "sha256": "1e2c8fa062c9de1b066f9e52f1da729c102cc650b788f94a29219b42d168b456"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/31/ASK_candles_min_1.bi5",
+    "bytes": 5578,
+    "sha256": "780ef4bb96174f01374171184c71e8d3fd3414ea8066def567df06c1b820df6f"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2018/00/31/BID_candles_min_1.bi5",
+    "bytes": 5431,
+    "sha256": "0adf5060a5501a36ad18a70a8d1704593f9ea146eacd139fe3c57f2349fb6596"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2022/02/16/BID_candles_min_1.bi5",
+    "bytes": 5654,
+    "sha256": "8635619f2ae5393868fcf76c4be7c22319129c8aa166c567eaac9d9833ea73d9"
+  },
+  {
+    "path": "data/raw/dukascopy/SPYUSUSD/2022/08/21/BID_candles_min_1.bi5",
+    "bytes": 5851,
+    "sha256": "e40fa2d4d833e2b12a3f5abf9e2ece34929518e96bc8357bd785a38338c3aec0"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2017/11/27/ASK_candles_min_1.bi5",
+    "bytes": 4992,
+    "sha256": "e58a55b1ac27c37846c236f13be4cb7c82e442e1a6fb98bcaf5a20d9a185f438"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2017/11/27/BID_candles_min_1.bi5",
+    "bytes": 5056,
+    "sha256": "98a3ae0871b2b07c329b6e7bcd22f3ebd9417fb1d6eaab1e54c0a6293249ba04"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/03/ASK_candles_min_1.bi5",
+    "bytes": 5043,
+    "sha256": "2cee9c34c17b0a881b31ac970b77ae3b90402074a40427025cd2c5b19016c012"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/03/BID_candles_min_1.bi5",
+    "bytes": 4974,
+    "sha256": "afcf3e3991249784dab95522e391b5b6d3588a7c58905c071ce5ba9df15a75ee"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/24/ASK_candles_min_1.bi5",
+    "bytes": 5121,
+    "sha256": "ed4c65ab5ba4c75501dfacaa3d5c3f2acf38a159196c476d3bd9452a8d056964"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/24/BID_candles_min_1.bi5",
+    "bytes": 5162,
+    "sha256": "9f3dff4e076839fb6f8aff632785e4bebcd902f54c59c0a86418594ae04f98fe"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/31/ASK_candles_min_1.bi5",
+    "bytes": 5190,
+    "sha256": "0a5eab5695c45959d2c23a1c592ca1370c529a09492bf168e07613c51e218b66"
+  },
+  {
+    "path": "data/raw/dukascopy/TLTUSUSD/2018/00/31/BID_candles_min_1.bi5",
+    "bytes": 5146,
+    "sha256": "394aed67910656050a0388d255e04ef4ca8afd587bb8ee6f187a238e9763f699"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2017.zip",
+    "bytes": 3365476,
+    "sha256": "0dcd66dc67d7af4716404a5315d376ee1e7eaebe292afbda3c1003d2dfa16f57"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2018.zip",
+    "bytes": 3433859,
+    "sha256": "3c478a0096426c7289db654c8b66235d8064fe56a9975282de8342fea7c170f1"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2019.zip",
+    "bytes": 3156192,
+    "sha256": "221fa4e0db549f48719273979ea4b1a2b0877f45f1147a8416ff8bbd055f5491"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2020.zip",
+    "bytes": 3420002,
+    "sha256": "38efbafce27f0e15df0006cc413cc02a68a18cada4f3b99e9afd42e17dd2ff2c"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2021.zip",
+    "bytes": 3285118,
+    "sha256": "64af4aa52958685a6889cfa15df400c62dc6ad543cf6ea10a13a0d3a7e01a563"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2022.zip",
+    "bytes": 3545446,
+    "sha256": "5ed361f3d93107f644834cac06870e830f9dc887d5aa5fde4b90c2accdf773f3"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2023.zip",
+    "bytes": 2919186,
+    "sha256": "26e41c4bccfd70f2c76ef7f3ffcba0e3b7097231927a41640f4a7c442815f34a"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2024.zip",
+    "bytes": 3229550,
+    "sha256": "58f074ba6b835eb2fbeaeb6678502a23b26768eefdfa509eb75ff5296bb2904d"
+  },
+  {
+    "path": "data/raw/histdata/EURUSD/2025.zip",
+    "bytes": 3441226,
+    "sha256": "b7c23d20b9577588a8b13508d58fedbe487e569b7b8b5dd368bd1d2b61115de0"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2017.zip",
+    "bytes": 3005614,
+    "sha256": "162b6e8b54b16dc67a31072c89cb7a48066920c7f61f513d3b2ffcce8b625213"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2018.zip",
+    "bytes": 3560115,
+    "sha256": "0cab833575b5967f08718a5ad869a85aa5e5c408fbbe725c01925b1da44ef34f"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2019.zip",
+    "bytes": 3929822,
+    "sha256": "f7e0ac7ce964c864793c8928058cef11d1a886c68876f42b3e42d5bc61732698"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2020.zip",
+    "bytes": 4782514,
+    "sha256": "896ff362259e56468f7a8acd32afa4dc21c309cf13a84e2c3e585dea0be4df84"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2021.zip",
+    "bytes": 4941583,
+    "sha256": "ea22aa9f9a10f234cde03428f8117b2725e550f45ca17eb95fb1e4a9792c2977"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2022.zip",
+    "bytes": 5127487,
+    "sha256": "b6bfac92a74c36719812014a38ce8cfcad05b4f15aca0d0e9e0dc1b1b3a098e7"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2023.zip",
+    "bytes": 4285675,
+    "sha256": "0282f3b419c254d168c5dba86cdcfe6527f0d4ad32dd407a401d9367e2520ecc"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2024.zip",
+    "bytes": 5195055,
+    "sha256": "70429c487544991e42d34ce505be00b2d02b74a6633b23ca07eba0f80bf24566"
+  },
+  {
+    "path": "data/raw/histdata/NSXUSD/2025.zip",
+    "bytes": 5327460,
+    "sha256": "865006539b7a3abe6ce3742e17604e5bf003b89583b349228570d343f78ae16f"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2017.zip",
+    "bytes": 2072451,
+    "sha256": "0df85b8f0f0c6adec40bd29bb8fb8290b5d58d9b551c99aa073a58f75297d58c"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2018.zip",
+    "bytes": 2724034,
+    "sha256": "b29ee026c351470929208def4c65cb4bb0adfc252b9453646adb463ee22bdec0"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2019.zip",
+    "bytes": 2795335,
+    "sha256": "c1f0eeba5b55834a8a6e3a88cd1d8ec69592d192419c1cd2a909a67a5aa324fe"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2020.zip",
+    "bytes": 4048280,
+    "sha256": "29ef33d74507484ef6f8cb2b0beec0d4477fde1e5b582b07ca04366bd984c23a"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2021.zip",
+    "bytes": 3997784,
+    "sha256": "14f2f6f6070e8a096f377d5d1ddf646c5c742f76912cc1fbe4ecbfb9d9221278"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2022.zip",
+    "bytes": 4512711,
+    "sha256": "fe8869fae70a4e536ce429daae9265e1904dc6323b5e6112ff13aa2bc5790c40"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2023.zip",
+    "bytes": 3991111,
+    "sha256": "ed12d6f59929101f2e09c2f1c5028f39ab8af3b36841b41532d13f7f68c3aef9"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2024.zip",
+    "bytes": 4570331,
+    "sha256": "759e1911963f4b3275cc30a35f8937435afb03ee1eaac2f6a28aa0c9c7068da7"
+  },
+  {
+    "path": "data/raw/histdata/SPXUSD/2025.zip",
+    "bytes": 4477585,
+    "sha256": "5a3729fd46686a0d88d43b7f64f7915bd5df43c940a8fa72ad63e348b64b2ae7"
+  }
+]

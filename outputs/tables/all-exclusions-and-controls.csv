@@ -1,0 +1,385 @@
+event_id,event_type,date,asset,phase,event_accepted,control_accepted,control_reason,event_reason,flat_pre_fraction,flat_post_fraction,control_date,control_candidate
+minutes_2018-01-03,Minutes,2018-01-03,SPX,development,False,False,event excluded,missing_required=8;invalid_required=8,,,,
+statements_2018-01-31,Statements,2018-01-31,SPX,development,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+minutes_2018-02-21,Minutes,2018-02-21,SPX,development,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+statements_2018-03-21,Statements,2018-03-21,SPX,development,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+minutes_2018-04-11,Minutes,2018-04-11,SPX,development,True,True,,,0.1,0.1,2018-04-04,0
+statements_2018-05-02,Statements,2018-05-02,SPX,development,True,True,,,0.2,0.05,2018-04-25,0
+minutes_2018-05-23,Minutes,2018-05-23,SPX,development,True,True,,,0.216666666667,0.05,2018-05-16,0
+statements_2018-06-13,Statements,2018-06-13,SPX,development,False,False,event excluded,missing_required=5;invalid_required=5,,,,
+minutes_2018-07-05,Minutes,2018-07-05,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+statements_2018-08-01,Statements,2018-08-01,SPX,development,False,False,event excluded,missing_required=6;invalid_required=6,,,,
+minutes_2018-08-22,Minutes,2018-08-22,SPX,development,False,False,event excluded,missing_required=8;invalid_required=8,,,,
+statements_2018-09-26,Statements,2018-09-26,SPX,development,False,False,event excluded,missing_required=6;invalid_required=6,,,,
+minutes_2018-10-17,Minutes,2018-10-17,SPX,development,True,True,,,0.2,0,2018-10-10,0
+statements_2018-11-08,Statements,2018-11-08,SPX,development,True,True,,,0.233333333333,0.15,2018-11-01,0
+minutes_2018-11-29,Minutes,2018-11-29,SPX,development,True,True,,,0.166666666667,0.1,2018-11-15,1
+statements_2018-12-19,Statements,2018-12-19,SPX,development,True,True,,,0.0333333333333,0,2018-12-12,0
+minutes_2019-01-09,Minutes,2019-01-09,SPX,development,True,True,,,0.0833333333333,0.05,2019-01-02,0
+statements_2019-01-30,Statements,2019-01-30,SPX,development,True,True,,,0.1,0.05,2019-01-23,0
+minutes_2019-02-20,Minutes,2019-02-20,SPX,development,True,True,,,0.3,0,2019-02-06,1
+statements_2019-03-20,Statements,2019-03-20,SPX,development,True,True,,,0.0666666666667,0.1,2019-03-06,1
+minutes_2019-04-10,Minutes,2019-04-10,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+statements_2019-05-01,Statements,2019-05-01,SPX,development,True,True,,,0.166666666667,0.05,2019-04-03,3
+minutes_2019-05-22,Minutes,2019-05-22,SPX,development,True,True,,,0.0833333333333,0.05,2019-05-15,0
+statements_2019-06-19,Statements,2019-06-19,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+minutes_2019-07-10,Minutes,2019-07-10,SPX,development,False,False,event excluded,missing_required=3;invalid_required=3,,,,
+statements_2019-07-31,Statements,2019-07-31,SPX,development,True,False,missing_required=70;invalid_required=70,,0.0833333333333,0,,
+minutes_2019-08-21,Minutes,2019-08-21,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+statements_2019-09-18,Statements,2019-09-18,SPX,development,False,False,event excluded,missing_required=4;invalid_required=4,,,,
+minutes_2019-10-09,Minutes,2019-10-09,SPX,development,True,True,,,0.166666666667,0.05,2019-10-02,0
+statements_2019-10-30,Statements,2019-10-30,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+minutes_2019-11-20,Minutes,2019-11-20,SPX,development,True,True,,,0.05,0.15,2019-11-06,1
+statements_2019-12-11,Statements,2019-12-11,SPX,development,False,False,event excluded,missing_required=2;invalid_required=2,,,,
+minutes_2020-01-03,Minutes,2020-01-03,SPX,development,True,True,,,0.0166666666667,0,2019-12-13,2
+statements_2020-01-29,Statements,2020-01-29,SPX,development,True,True,,,0.0666666666667,0.05,2020-01-15,1
+minutes_2020-02-19,Minutes,2020-02-19,SPX,development,False,False,event excluded,missing_required=3;invalid_required=3,,,,
+minutes_2020-04-08,Minutes,2020-04-08,SPX,development,True,True,,,0,0,2020-04-01,0
+statements_2020-04-29,Statements,2020-04-29,SPX,development,True,True,,,0.0333333333333,0,2020-04-22,0
+minutes_2020-05-20,Minutes,2020-05-20,SPX,development,True,True,,,0.05,0,2020-05-13,0
+statements_2020-06-10,Statements,2020-06-10,SPX,development,True,True,,,0.0166666666667,0,2020-06-03,0
+minutes_2020-07-01,Minutes,2020-07-01,SPX,development,True,True,,,0,0,2020-06-24,0
+statements_2020-07-29,Statements,2020-07-29,SPX,development,True,True,,,0.0333333333333,0,2020-07-22,0
+minutes_2020-08-19,Minutes,2020-08-19,SPX,development,False,False,event excluded,missing_required=4;invalid_required=4,,,,
+statements_2020-09-16,Statements,2020-09-16,SPX,development,True,True,,,0.0333333333333,0,2020-09-09,0
+minutes_2020-10-07,Minutes,2020-10-07,SPX,development,True,True,,,0.0333333333333,0.1,2020-09-30,0
+statements_2020-11-05,Statements,2020-11-05,SPX,development,True,True,,,0.0166666666667,0,2020-10-29,0
+minutes_2020-11-25,Minutes,2020-11-25,SPX,development,True,True,,,0.0333333333333,0.05,2020-11-18,0
+statements_2020-12-16,Statements,2020-12-16,SPX,development,True,True,,,0.0166666666667,0,2020-12-09,0
+minutes_2021-01-06,Minutes,2021-01-06,SPX,development,True,True,,,0,0,2020-12-30,0
+statements_2021-01-27,Statements,2021-01-27,SPX,development,True,True,,,0,0,2021-01-20,0
+minutes_2021-02-17,Minutes,2021-02-17,SPX,development,True,True,,,0,0,2021-02-10,0
+statements_2021-03-17,Statements,2021-03-17,SPX,development,True,True,,,0.0333333333333,0,2021-03-10,0
+minutes_2021-04-07,Minutes,2021-04-07,SPX,development,True,True,,,0.0166666666667,0,2021-03-24,1
+statements_2021-04-28,Statements,2021-04-28,SPX,development,True,True,,,0.0166666666667,0,2021-04-14,1
+minutes_2021-05-19,Minutes,2021-05-19,SPX,development,True,True,,,0,0,2021-05-12,0
+statements_2021-06-16,Statements,2021-06-16,SPX,development,True,True,,,0,0,2021-06-09,0
+minutes_2021-07-07,Minutes,2021-07-07,SPX,development,True,True,,,0,0,2021-06-30,0
+statements_2021-07-28,Statements,2021-07-28,SPX,development,True,True,,,0.0166666666667,0,2021-07-21,0
+minutes_2021-08-18,Minutes,2021-08-18,SPX,development,True,True,,,0.0166666666667,0,2021-08-11,0
+statements_2021-09-22,Statements,2021-09-22,SPX,development,True,True,,,0,0,2021-09-15,0
+minutes_2021-10-13,Minutes,2021-10-13,SPX,development,True,True,,,0.0166666666667,0,2021-10-06,0
+statements_2021-11-03,Statements,2021-11-03,SPX,development,True,True,,,0.0166666666667,0,2021-10-27,0
+minutes_2021-11-24,Minutes,2021-11-24,SPX,development,True,True,,,0.0333333333333,0,2021-11-17,0
+statements_2021-12-15,Statements,2021-12-15,SPX,development,True,True,,,0,0,2021-12-08,0
+minutes_2022-01-05,Minutes,2022-01-05,SPX,development,True,True,,,0,0,2021-12-29,0
+statements_2022-01-26,Statements,2022-01-26,SPX,development,True,True,,,0,0,2022-01-19,0
+minutes_2022-02-16,Minutes,2022-02-16,SPX,development,True,True,,,0,0,2022-02-09,0
+statements_2022-03-16,Statements,2022-03-16,SPX,development,True,True,,,0,0,2022-03-09,0
+minutes_2022-04-06,Minutes,2022-04-06,SPX,development,True,True,,,0,0,2022-03-30,0
+statements_2022-05-04,Statements,2022-05-04,SPX,development,True,True,,,0.0166666666667,0,2022-04-27,0
+minutes_2022-05-25,Minutes,2022-05-25,SPX,development,True,True,,,0,0,2022-05-18,0
+statements_2022-06-15,Statements,2022-06-15,SPX,development,True,True,,,0,0,2022-06-08,0
+minutes_2022-07-06,Minutes,2022-07-06,SPX,development,True,True,,,0,0,2022-06-29,0
+statements_2022-07-27,Statements,2022-07-27,SPX,development,True,True,,,0.0166666666667,0,2022-07-20,0
+minutes_2022-08-17,Minutes,2022-08-17,SPX,development,True,True,,,0,0,2022-08-10,0
+statements_2022-09-21,Statements,2022-09-21,SPX,development,True,True,,,0,0,2022-09-14,0
+minutes_2022-10-12,Minutes,2022-10-12,SPX,development,True,True,,,0,0,2022-10-05,0
+statements_2022-11-02,Statements,2022-11-02,SPX,development,True,True,,,0,0,2022-10-26,0
+minutes_2022-11-23,Minutes,2022-11-23,SPX,development,True,True,,,0,0,2022-11-16,0
+statements_2022-12-14,Statements,2022-12-14,SPX,development,True,True,,,0,0,2022-12-07,0
+minutes_2018-01-03,Minutes,2018-01-03,NSX,development,True,True,,,0.1,0.05,2017-12-27,0
+statements_2018-01-31,Statements,2018-01-31,NSX,development,True,True,,,0.0333333333333,0.1,2018-01-24,0
+minutes_2018-02-21,Minutes,2018-02-21,NSX,development,True,True,,,0,0,2018-02-14,0
+statements_2018-03-21,Statements,2018-03-21,NSX,development,True,True,,,0.0166666666667,0.15,2018-03-14,0
+minutes_2018-04-11,Minutes,2018-04-11,NSX,development,True,True,,,0.0166666666667,0,2018-04-04,0
+statements_2018-05-02,Statements,2018-05-02,NSX,development,True,True,,,0,0.05,2018-04-25,0
+minutes_2018-05-23,Minutes,2018-05-23,NSX,development,True,True,,,0.05,0.05,2018-05-16,0
+statements_2018-06-13,Statements,2018-06-13,NSX,development,True,True,,,0.0666666666667,0.05,2018-06-06,0
+minutes_2018-07-05,Minutes,2018-07-05,NSX,development,True,True,,,0,0,2018-06-28,0
+statements_2018-08-01,Statements,2018-08-01,NSX,development,True,True,,,0.05,0.05,2018-07-25,0
+minutes_2018-08-22,Minutes,2018-08-22,NSX,development,True,True,,,0.05,0,2018-08-15,0
+statements_2018-09-26,Statements,2018-09-26,NSX,development,True,True,,,0.133333333333,0.05,2018-09-19,0
+minutes_2018-10-17,Minutes,2018-10-17,NSX,development,True,True,,,0.0166666666667,0.05,2018-10-10,0
+statements_2018-11-08,Statements,2018-11-08,NSX,development,True,True,,,0.0333333333333,0,2018-11-01,0
+minutes_2018-11-29,Minutes,2018-11-29,NSX,development,True,True,,,0.0166666666667,0,2018-11-15,1
+statements_2018-12-19,Statements,2018-12-19,NSX,development,True,True,,,0,0,2018-12-12,0
+minutes_2019-01-09,Minutes,2019-01-09,NSX,development,True,True,,,0.0166666666667,0,2019-01-02,0
+statements_2019-01-30,Statements,2019-01-30,NSX,development,True,True,,,0.0166666666667,0,2019-01-23,0
+minutes_2019-02-20,Minutes,2019-02-20,NSX,development,True,True,,,0,0,2019-02-13,0
+statements_2019-03-20,Statements,2019-03-20,NSX,development,True,True,,,0,0,2019-03-13,0
+minutes_2019-04-10,Minutes,2019-04-10,NSX,development,True,True,,,0,0.05,2019-04-03,0
+statements_2019-05-01,Statements,2019-05-01,NSX,development,True,True,,,0.0166666666667,0,2019-04-24,0
+minutes_2019-05-22,Minutes,2019-05-22,NSX,development,True,True,,,0,0,2019-05-15,0
+statements_2019-06-19,Statements,2019-06-19,NSX,development,True,True,,,0,0,2019-06-12,0
+minutes_2019-07-10,Minutes,2019-07-10,NSX,development,True,True,,,0.0166666666667,0,2019-06-26,1
+statements_2019-07-31,Statements,2019-07-31,NSX,development,True,True,,,0.0166666666667,0,2019-07-24,0
+minutes_2019-08-21,Minutes,2019-08-21,NSX,development,True,True,,,0.05,0,2019-08-14,0
+statements_2019-09-18,Statements,2019-09-18,NSX,development,True,True,,,0.0166666666667,0,2019-09-11,0
+minutes_2019-10-09,Minutes,2019-10-09,NSX,development,True,True,,,0.0166666666667,0,2019-10-02,0
+statements_2019-10-30,Statements,2019-10-30,NSX,development,True,True,,,0.0166666666667,0,2019-10-23,0
+minutes_2019-11-20,Minutes,2019-11-20,NSX,development,True,True,,,0,0,2019-11-13,0
+statements_2019-12-11,Statements,2019-12-11,NSX,development,True,True,,,0.05,0,2019-12-04,0
+minutes_2020-01-03,Minutes,2020-01-03,NSX,development,True,True,,,0,0,2019-12-27,0
+statements_2020-01-29,Statements,2020-01-29,NSX,development,True,True,,,0,0,2020-01-22,0
+minutes_2020-02-19,Minutes,2020-02-19,NSX,development,True,True,,,0,0,2020-02-12,0
+minutes_2020-04-08,Minutes,2020-04-08,NSX,development,True,True,,,0,0,2020-04-01,0
+statements_2020-04-29,Statements,2020-04-29,NSX,development,True,True,,,0,0,2020-04-22,0
+minutes_2020-05-20,Minutes,2020-05-20,NSX,development,True,True,,,0,0,2020-05-13,0
+statements_2020-06-10,Statements,2020-06-10,NSX,development,True,True,,,0,0,2020-06-03,0
+minutes_2020-07-01,Minutes,2020-07-01,NSX,development,True,True,,,0,0,2020-06-24,0
+statements_2020-07-29,Statements,2020-07-29,NSX,development,True,True,,,0,0,2020-07-22,0
+minutes_2020-08-19,Minutes,2020-08-19,NSX,development,True,True,,,0,0,2020-08-12,0
+statements_2020-09-16,Statements,2020-09-16,NSX,development,True,True,,,0,0,2020-09-09,0
+minutes_2020-10-07,Minutes,2020-10-07,NSX,development,True,True,,,0,0,2020-09-30,0
+statements_2020-11-05,Statements,2020-11-05,NSX,development,True,True,,,0,0,2020-10-29,0
+minutes_2020-11-25,Minutes,2020-11-25,NSX,development,True,True,,,0,0,2020-11-18,0
+statements_2020-12-16,Statements,2020-12-16,NSX,development,True,True,,,0,0,2020-12-09,0
+minutes_2021-01-06,Minutes,2021-01-06,NSX,development,True,True,,,0,0,2020-12-30,0
+statements_2021-01-27,Statements,2021-01-27,NSX,development,True,True,,,0,0,2021-01-20,0
+minutes_2021-02-17,Minutes,2021-02-17,NSX,development,True,True,,,0,0,2021-02-10,0
+statements_2021-03-17,Statements,2021-03-17,NSX,development,True,True,,,0,0,2021-03-10,0
+minutes_2021-04-07,Minutes,2021-04-07,NSX,development,True,True,,,0,0,2021-03-31,0
+statements_2021-04-28,Statements,2021-04-28,NSX,development,True,True,,,0,0,2021-04-21,0
+minutes_2021-05-19,Minutes,2021-05-19,NSX,development,True,True,,,0,0,2021-05-12,0
+statements_2021-06-16,Statements,2021-06-16,NSX,development,True,True,,,0,0,2021-06-09,0
+minutes_2021-07-07,Minutes,2021-07-07,NSX,development,True,True,,,0,0,2021-06-30,0
+statements_2021-07-28,Statements,2021-07-28,NSX,development,True,True,,,0,0,2021-07-21,0
+minutes_2021-08-18,Minutes,2021-08-18,NSX,development,True,True,,,0,0,2021-08-11,0
+statements_2021-09-22,Statements,2021-09-22,NSX,development,True,True,,,0,0,2021-09-15,0
+minutes_2021-10-13,Minutes,2021-10-13,NSX,development,True,True,,,0,0,2021-10-06,0
+statements_2021-11-03,Statements,2021-11-03,NSX,development,True,True,,,0,0,2021-10-27,0
+minutes_2021-11-24,Minutes,2021-11-24,NSX,development,True,True,,,0,0,2021-11-17,0
+statements_2021-12-15,Statements,2021-12-15,NSX,development,True,True,,,0,0,2021-12-08,0
+minutes_2022-01-05,Minutes,2022-01-05,NSX,development,True,True,,,0,0,2021-12-29,0
+statements_2022-01-26,Statements,2022-01-26,NSX,development,True,True,,,0,0,2022-01-19,0
+minutes_2022-02-16,Minutes,2022-02-16,NSX,development,True,True,,,0,0,2022-02-09,0
+statements_2022-03-16,Statements,2022-03-16,NSX,development,True,True,,,0,0,2022-03-09,0
+minutes_2022-04-06,Minutes,2022-04-06,NSX,development,True,True,,,0,0,2022-03-30,0
+statements_2022-05-04,Statements,2022-05-04,NSX,development,True,True,,,0,0,2022-04-27,0
+minutes_2022-05-25,Minutes,2022-05-25,NSX,development,True,True,,,0,0,2022-05-18,0
+statements_2022-06-15,Statements,2022-06-15,NSX,development,True,True,,,0,0,2022-06-08,0
+minutes_2022-07-06,Minutes,2022-07-06,NSX,development,True,True,,,0,0,2022-06-29,0
+statements_2022-07-27,Statements,2022-07-27,NSX,development,True,True,,,0,0,2022-07-20,0
+minutes_2022-08-17,Minutes,2022-08-17,NSX,development,True,True,,,0,0,2022-08-10,0
+statements_2022-09-21,Statements,2022-09-21,NSX,development,True,True,,,0,0,2022-09-14,0
+minutes_2022-10-12,Minutes,2022-10-12,NSX,development,True,True,,,0,0,2022-10-05,0
+statements_2022-11-02,Statements,2022-11-02,NSX,development,True,True,,,0,0,2022-10-26,0
+minutes_2022-11-23,Minutes,2022-11-23,NSX,development,True,True,,,0,0,2022-11-16,0
+statements_2022-12-14,Statements,2022-12-14,NSX,development,True,True,,,0,0,2022-12-07,0
+minutes_2018-01-03,Minutes,2018-01-03,EURUSD,development,True,True,,,0.116666666667,0.05,2017-12-27,0
+statements_2018-01-31,Statements,2018-01-31,EURUSD,development,True,True,,,0.0166666666667,0,2018-01-24,0
+minutes_2018-02-21,Minutes,2018-02-21,EURUSD,development,True,True,,,0.05,0,2018-02-14,0
+statements_2018-03-21,Statements,2018-03-21,EURUSD,development,True,True,,,0.0333333333333,0.05,2018-03-14,0
+minutes_2018-04-11,Minutes,2018-04-11,EURUSD,development,True,True,,,0.0333333333333,0,2018-04-04,0
+statements_2018-05-02,Statements,2018-05-02,EURUSD,development,True,True,,,0.0333333333333,0,2018-04-25,0
+minutes_2018-05-23,Minutes,2018-05-23,EURUSD,development,True,True,,,0.0166666666667,0.05,2018-05-16,0
+statements_2018-06-13,Statements,2018-06-13,EURUSD,development,True,True,,,0.0333333333333,0,2018-06-06,0
+minutes_2018-07-05,Minutes,2018-07-05,EURUSD,development,True,True,,,0.0333333333333,0,2018-06-28,0
+statements_2018-08-01,Statements,2018-08-01,EURUSD,development,True,True,,,0.0666666666667,0,2018-07-25,0
+minutes_2018-08-22,Minutes,2018-08-22,EURUSD,development,True,True,,,0.0833333333333,0,2018-08-15,0
+statements_2018-09-26,Statements,2018-09-26,EURUSD,development,True,True,,,0.0333333333333,0,2018-09-19,0
+minutes_2018-10-17,Minutes,2018-10-17,EURUSD,development,True,True,,,0.1,0,2018-10-10,0
+statements_2018-11-08,Statements,2018-11-08,EURUSD,development,True,True,,,0.05,0,2018-11-01,0
+minutes_2018-11-29,Minutes,2018-11-29,EURUSD,development,True,True,,,0.05,0.15,2018-11-22,0
+statements_2018-12-19,Statements,2018-12-19,EURUSD,development,True,True,,,0.05,0.05,2018-12-12,0
+minutes_2019-01-09,Minutes,2019-01-09,EURUSD,development,True,True,,,0.0166666666667,0.05,2019-01-02,0
+statements_2019-01-30,Statements,2019-01-30,EURUSD,development,True,True,,,0.0666666666667,0,2019-01-23,0
+minutes_2019-02-20,Minutes,2019-02-20,EURUSD,development,True,True,,,0.1,0.05,2019-02-13,0
+statements_2019-03-20,Statements,2019-03-20,EURUSD,development,True,True,,,0.0666666666667,0,2019-03-13,0
+minutes_2019-04-10,Minutes,2019-04-10,EURUSD,development,True,True,,,0.0666666666667,0.05,2019-04-03,0
+statements_2019-05-01,Statements,2019-05-01,EURUSD,development,True,True,,,0.183333333333,0,2019-04-24,0
+minutes_2019-05-22,Minutes,2019-05-22,EURUSD,development,True,True,,,0.0333333333333,0.05,2019-05-15,0
+statements_2019-06-19,Statements,2019-06-19,EURUSD,development,True,True,,,0.15,0,2019-06-12,0
+minutes_2019-07-10,Minutes,2019-07-10,EURUSD,development,True,True,,,0.05,0.05,2019-07-03,0
+statements_2019-07-31,Statements,2019-07-31,EURUSD,development,True,True,,,0.0833333333333,0,2019-07-24,0
+minutes_2019-08-21,Minutes,2019-08-21,EURUSD,development,True,True,,,0.0666666666667,0.05,2019-08-14,0
+statements_2019-09-18,Statements,2019-09-18,EURUSD,development,True,True,,,0.0666666666667,0,2019-09-11,0
+minutes_2019-10-09,Minutes,2019-10-09,EURUSD,development,True,True,,,0.1,0.05,2019-10-02,0
+statements_2019-10-30,Statements,2019-10-30,EURUSD,development,True,True,,,0.166666666667,0,2019-10-23,0
+minutes_2019-11-20,Minutes,2019-11-20,EURUSD,development,True,True,,,0.0833333333333,0.05,2019-11-13,0
+statements_2019-12-11,Statements,2019-12-11,EURUSD,development,True,True,,,0.116666666667,0.05,2019-12-04,0
+minutes_2020-01-03,Minutes,2020-01-03,EURUSD,development,True,True,,,0.216666666667,0,2019-12-27,0
+statements_2020-01-29,Statements,2020-01-29,EURUSD,development,True,True,,,0.0833333333333,0,2020-01-22,0
+minutes_2020-02-19,Minutes,2020-02-19,EURUSD,development,True,True,,,0.0666666666667,0.1,2020-02-12,0
+minutes_2020-04-08,Minutes,2020-04-08,EURUSD,development,True,True,,,0.0166666666667,0,2020-04-01,0
+statements_2020-04-29,Statements,2020-04-29,EURUSD,development,True,True,,,0,0,2020-04-22,0
+minutes_2020-05-20,Minutes,2020-05-20,EURUSD,development,True,True,,,0.05,0.05,2020-05-13,0
+statements_2020-06-10,Statements,2020-06-10,EURUSD,development,True,True,,,0.0166666666667,0,2020-06-03,0
+minutes_2020-07-01,Minutes,2020-07-01,EURUSD,development,True,True,,,0.0833333333333,0.1,2020-06-24,0
+statements_2020-07-29,Statements,2020-07-29,EURUSD,development,True,True,,,0.0333333333333,0.05,2020-07-22,0
+minutes_2020-08-19,Minutes,2020-08-19,EURUSD,development,True,True,,,0.0333333333333,0,2020-08-12,0
+statements_2020-09-16,Statements,2020-09-16,EURUSD,development,True,True,,,0.0166666666667,0,2020-09-09,0
+minutes_2020-10-07,Minutes,2020-10-07,EURUSD,development,True,True,,,0.0666666666667,0.05,2020-09-30,0
+statements_2020-11-05,Statements,2020-11-05,EURUSD,development,True,True,,,0,0.05,2020-10-29,0
+minutes_2020-11-25,Minutes,2020-11-25,EURUSD,development,True,True,,,0.0666666666667,0,2020-11-18,0
+statements_2020-12-16,Statements,2020-12-16,EURUSD,development,True,True,,,0.1,0.05,2020-12-09,0
+minutes_2021-01-06,Minutes,2021-01-06,EURUSD,development,True,True,,,0.0333333333333,0,2020-12-30,0
+statements_2021-01-27,Statements,2021-01-27,EURUSD,development,True,True,,,0.05,0,2021-01-20,0
+minutes_2021-02-17,Minutes,2021-02-17,EURUSD,development,True,True,,,0.05,0.05,2021-02-10,0
+statements_2021-03-17,Statements,2021-03-17,EURUSD,development,True,True,,,0.0666666666667,0,2021-03-10,0
+minutes_2021-04-07,Minutes,2021-04-07,EURUSD,development,True,True,,,0.1,0.05,2021-03-31,0
+statements_2021-04-28,Statements,2021-04-28,EURUSD,development,True,True,,,0.0666666666667,0,2021-04-14,1
+minutes_2021-05-19,Minutes,2021-05-19,EURUSD,development,True,True,,,0.0333333333333,0.05,2021-05-12,0
+statements_2021-06-16,Statements,2021-06-16,EURUSD,development,True,True,,,0.116666666667,0,2021-06-09,0
+minutes_2021-07-07,Minutes,2021-07-07,EURUSD,development,True,True,,,0.0166666666667,0,2021-06-30,0
+statements_2021-07-28,Statements,2021-07-28,EURUSD,development,True,True,,,0.0333333333333,0,2021-07-21,0
+minutes_2021-08-18,Minutes,2021-08-18,EURUSD,development,True,True,,,0.166666666667,0,2021-08-11,0
+statements_2021-09-22,Statements,2021-09-22,EURUSD,development,True,True,,,0.1,0,2021-09-15,0
+minutes_2021-10-13,Minutes,2021-10-13,EURUSD,development,True,True,,,0.1,0,2021-10-06,0
+statements_2021-11-03,Statements,2021-11-03,EURUSD,development,True,True,,,0.05,0,2021-10-27,0
+minutes_2021-11-24,Minutes,2021-11-24,EURUSD,development,True,True,,,0.116666666667,0.05,2021-11-17,0
+statements_2021-12-15,Statements,2021-12-15,EURUSD,development,True,True,,,0.1,0,2021-12-08,0
+minutes_2022-01-05,Minutes,2022-01-05,EURUSD,development,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+statements_2022-01-26,Statements,2022-01-26,EURUSD,development,True,True,,,0.05,0,2022-01-19,0
+minutes_2022-02-16,Minutes,2022-02-16,EURUSD,development,True,True,,,0.0333333333333,0,2022-02-02,1
+statements_2022-03-16,Statements,2022-03-16,EURUSD,development,True,True,,,0.05,0,2022-03-09,0
+minutes_2022-04-06,Minutes,2022-04-06,EURUSD,development,True,True,,,0.1,0,2022-03-30,0
+statements_2022-05-04,Statements,2022-05-04,EURUSD,development,True,True,,,0,0.05,2022-04-27,0
+minutes_2022-05-25,Minutes,2022-05-25,EURUSD,development,True,True,,,0.05,0,2022-05-18,0
+statements_2022-06-15,Statements,2022-06-15,EURUSD,development,True,True,,,0.0666666666667,0,2022-06-08,0
+minutes_2022-07-06,Minutes,2022-07-06,EURUSD,development,True,True,,,0.0333333333333,0,2022-06-29,0
+statements_2022-07-27,Statements,2022-07-27,EURUSD,development,True,True,,,0.0333333333333,0,2022-07-20,0
+minutes_2022-08-17,Minutes,2022-08-17,EURUSD,development,True,True,,,0.0666666666667,0,2022-08-10,0
+statements_2022-09-21,Statements,2022-09-21,EURUSD,development,True,True,,,0,0,2022-09-14,0
+minutes_2022-10-12,Minutes,2022-10-12,EURUSD,development,True,True,,,0.0666666666667,0,2022-10-05,0
+statements_2022-11-02,Statements,2022-11-02,EURUSD,development,True,True,,,0.05,0.05,2022-10-26,0
+minutes_2022-11-23,Minutes,2022-11-23,EURUSD,development,True,True,,,0.0333333333333,0,2022-11-16,0
+statements_2022-12-14,Statements,2022-12-14,EURUSD,development,True,True,,,0.0166666666667,0,2022-12-07,0
+minutes_2023-01-04,Minutes,2023-01-04,SPX,validation,True,True,,,0,0,2022-12-28,0
+statements_2023-02-01,Statements,2023-02-01,SPX,validation,True,True,,,0,0,2023-01-25,0
+minutes_2023-02-22,Minutes,2023-02-22,SPX,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+statements_2023-03-22,Statements,2023-03-22,SPX,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-04-12,Minutes,2023-04-12,SPX,validation,False,False,event excluded,missing_required=86;invalid_required=86,,,,
+statements_2023-05-03,Statements,2023-05-03,SPX,validation,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+minutes_2023-05-24,Minutes,2023-05-24,SPX,validation,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+statements_2023-06-14,Statements,2023-06-14,SPX,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+minutes_2023-07-05,Minutes,2023-07-05,SPX,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+statements_2023-07-26,Statements,2023-07-26,SPX,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+minutes_2023-08-16,Minutes,2023-08-16,SPX,validation,True,True,,,0,0,2023-08-09,0
+statements_2023-09-20,Statements,2023-09-20,SPX,validation,False,False,event excluded,missing_required=5;invalid_required=5,,,,
+minutes_2023-10-11,Minutes,2023-10-11,SPX,validation,True,True,,,0,0,2023-10-04,0
+statements_2023-11-01,Statements,2023-11-01,SPX,validation,True,True,,,0,0,2023-10-25,0
+minutes_2023-11-21,Minutes,2023-11-21,SPX,validation,True,True,,,0,0,2023-11-14,0
+statements_2023-12-13,Statements,2023-12-13,SPX,validation,True,True,,,0,0,2023-12-06,0
+minutes_2023-01-04,Minutes,2023-01-04,NSX,validation,True,True,,,0,0,2022-12-28,0
+statements_2023-02-01,Statements,2023-02-01,NSX,validation,True,True,,,0,0,2023-01-25,0
+minutes_2023-02-22,Minutes,2023-02-22,NSX,validation,False,False,event excluded,missing_required=26;invalid_required=26,,,,
+statements_2023-03-22,Statements,2023-03-22,NSX,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-04-12,Minutes,2023-04-12,NSX,validation,False,False,event excluded,missing_required=1;invalid_required=1,,,,
+statements_2023-05-03,Statements,2023-05-03,NSX,validation,False,False,event excluded,missing_required=86;invalid_required=86,,,,
+minutes_2023-05-24,Minutes,2023-05-24,NSX,validation,False,False,event excluded,missing_required=86;invalid_required=86,,,,
+statements_2023-06-14,Statements,2023-06-14,NSX,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-07-05,Minutes,2023-07-05,NSX,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+statements_2023-07-26,Statements,2023-07-26,NSX,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-08-16,Minutes,2023-08-16,NSX,validation,True,True,,,0,0,2023-08-09,0
+statements_2023-09-20,Statements,2023-09-20,NSX,validation,False,False,event excluded,missing_required=5;invalid_required=5,,,,
+minutes_2023-10-11,Minutes,2023-10-11,NSX,validation,True,True,,,0,0,2023-10-04,0
+statements_2023-11-01,Statements,2023-11-01,NSX,validation,True,True,,,0,0,2023-10-25,0
+minutes_2023-11-21,Minutes,2023-11-21,NSX,validation,True,True,,,0,0,2023-11-14,0
+statements_2023-12-13,Statements,2023-12-13,NSX,validation,True,True,,,0,0,2023-12-06,0
+minutes_2023-01-04,Minutes,2023-01-04,EURUSD,validation,True,True,,,0.0666666666667,0,2022-12-28,0
+statements_2023-02-01,Statements,2023-02-01,EURUSD,validation,True,True,,,0.0333333333333,0,2023-01-25,0
+minutes_2023-02-22,Minutes,2023-02-22,EURUSD,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+statements_2023-03-22,Statements,2023-03-22,EURUSD,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+minutes_2023-04-12,Minutes,2023-04-12,EURUSD,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+statements_2023-05-03,Statements,2023-05-03,EURUSD,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-05-24,Minutes,2023-05-24,EURUSD,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+statements_2023-06-14,Statements,2023-06-14,EURUSD,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-07-05,Minutes,2023-07-05,EURUSD,validation,False,False,event excluded,missing_required=27;invalid_required=27,,,,
+statements_2023-07-26,Statements,2023-07-26,EURUSD,validation,False,False,event excluded,missing_required=60;invalid_required=60,,,,
+minutes_2023-08-16,Minutes,2023-08-16,EURUSD,validation,True,True,,,0.0833333333333,0.05,2023-08-09,0
+statements_2023-09-20,Statements,2023-09-20,EURUSD,validation,False,False,event excluded,missing_required=5;invalid_required=5,,,,
+minutes_2023-10-11,Minutes,2023-10-11,EURUSD,validation,True,True,,,0.1,0.05,2023-10-04,0
+statements_2023-11-01,Statements,2023-11-01,EURUSD,validation,True,True,,,0.0333333333333,0,2023-10-25,0
+minutes_2023-11-21,Minutes,2023-11-21,EURUSD,validation,True,True,,,0.0333333333333,0,2023-11-14,0
+statements_2023-12-13,Statements,2023-12-13,EURUSD,validation,True,True,,,0.0666666666667,0,2023-12-06,0
+minutes_2024-01-03,Minutes,2024-01-03,SPX,holdout,True,True,,,0.0166666666667,0,2023-12-27,0
+statements_2024-01-31,Statements,2024-01-31,SPX,holdout,True,True,,,0,0,2024-01-24,0
+minutes_2024-02-21,Minutes,2024-02-21,SPX,holdout,True,True,,,0,0,2024-02-14,0
+statements_2024-03-20,Statements,2024-03-20,SPX,holdout,True,True,,,0,0,2024-03-13,0
+minutes_2024-04-10,Minutes,2024-04-10,SPX,holdout,True,True,,,0,0,2024-04-03,0
+statements_2024-05-01,Statements,2024-05-01,SPX,holdout,True,True,,,0,0,2024-04-24,0
+minutes_2024-05-22,Minutes,2024-05-22,SPX,holdout,True,True,,,0,0,2024-05-15,0
+statements_2024-06-12,Statements,2024-06-12,SPX,holdout,True,True,,,0,0,2024-06-05,0
+minutes_2024-07-03,Minutes,2024-07-03,SPX,holdout,False,False,event excluded,missing_required=71;invalid_required=71,,,,
+statements_2024-07-31,Statements,2024-07-31,SPX,holdout,True,True,,,0,0,2024-07-24,0
+minutes_2024-08-21,Minutes,2024-08-21,SPX,holdout,True,True,,,0,0,2024-08-14,0
+statements_2024-09-18,Statements,2024-09-18,SPX,holdout,True,True,,,0,0,2024-09-11,0
+minutes_2024-10-09,Minutes,2024-10-09,SPX,holdout,True,True,,,0,0,2024-10-02,0
+statements_2024-11-07,Statements,2024-11-07,SPX,holdout,True,True,,,0,0,2024-10-31,0
+minutes_2024-11-26,Minutes,2024-11-26,SPX,holdout,True,True,,,0,0,2024-11-19,0
+statements_2024-12-18,Statements,2024-12-18,SPX,holdout,True,True,,,0,0,2024-12-11,0
+minutes_2025-01-08,Minutes,2025-01-08,SPX,holdout,True,True,,,0,0,2024-12-11,3
+statements_2025-01-29,Statements,2025-01-29,SPX,holdout,True,True,,,0,0,2025-01-22,0
+minutes_2025-02-19,Minutes,2025-02-19,SPX,holdout,True,True,,,0.0166666666667,0,2025-02-12,0
+statements_2025-03-19,Statements,2025-03-19,SPX,holdout,True,True,,,0,0,2025-03-12,0
+minutes_2025-04-09,Minutes,2025-04-09,SPX,holdout,True,True,,,0,0,2025-04-02,0
+statements_2025-05-07,Statements,2025-05-07,SPX,holdout,True,True,,,0,0,2025-04-30,0
+minutes_2025-05-28,Minutes,2025-05-28,SPX,holdout,True,True,,,0,0,2025-05-21,0
+statements_2025-06-18,Statements,2025-06-18,SPX,holdout,True,True,,,0.0166666666667,0,2025-06-11,0
+minutes_2025-07-09,Minutes,2025-07-09,SPX,holdout,True,True,,,0,0,2025-07-02,0
+statements_2025-07-30,Statements,2025-07-30,SPX,holdout,True,True,,,0.0166666666667,0,2025-07-23,0
+minutes_2025-08-20,Minutes,2025-08-20,SPX,holdout,True,True,,,0,0,2025-08-13,0
+statements_2025-09-17,Statements,2025-09-17,SPX,holdout,True,True,,,0,0,2025-09-10,0
+minutes_2025-10-08,Minutes,2025-10-08,SPX,holdout,True,True,,,0.0166666666667,0,2025-10-01,0
+statements_2025-10-29,Statements,2025-10-29,SPX,holdout,True,True,,,0,0,2025-10-22,0
+minutes_2025-11-19,Minutes,2025-11-19,SPX,holdout,True,True,,,0.0166666666667,0,2025-11-12,0
+statements_2025-12-10,Statements,2025-12-10,SPX,holdout,True,True,,,0.0166666666667,0,2025-12-03,0
+minutes_2025-12-31,Minutes,2025-12-31,SPX,holdout,True,True,,,0.0666666666667,0.05,2025-12-17,1
+minutes_2024-01-03,Minutes,2024-01-03,NSX,holdout,True,True,,,0,0,2023-12-27,0
+statements_2024-01-31,Statements,2024-01-31,NSX,holdout,True,True,,,0,0,2024-01-24,0
+minutes_2024-02-21,Minutes,2024-02-21,NSX,holdout,True,True,,,0,0,2024-02-14,0
+statements_2024-03-20,Statements,2024-03-20,NSX,holdout,True,True,,,0,0,2024-03-13,0
+minutes_2024-04-10,Minutes,2024-04-10,NSX,holdout,True,True,,,0,0,2024-04-03,0
+statements_2024-05-01,Statements,2024-05-01,NSX,holdout,True,True,,,0,0,2024-04-24,0
+minutes_2024-05-22,Minutes,2024-05-22,NSX,holdout,True,True,,,0,0,2024-05-15,0
+statements_2024-06-12,Statements,2024-06-12,NSX,holdout,True,True,,,0,0,2024-06-05,0
+minutes_2024-07-03,Minutes,2024-07-03,NSX,holdout,False,False,event excluded,missing_required=71;invalid_required=71,,,,
+statements_2024-07-31,Statements,2024-07-31,NSX,holdout,True,True,,,0,0,2024-07-24,0
+minutes_2024-08-21,Minutes,2024-08-21,NSX,holdout,True,True,,,0,0,2024-08-14,0
+statements_2024-09-18,Statements,2024-09-18,NSX,holdout,True,True,,,0,0,2024-09-11,0
+minutes_2024-10-09,Minutes,2024-10-09,NSX,holdout,True,True,,,0,0,2024-10-02,0
+statements_2024-11-07,Statements,2024-11-07,NSX,holdout,True,True,,,0,0,2024-10-31,0
+minutes_2024-11-26,Minutes,2024-11-26,NSX,holdout,True,True,,,0,0,2024-11-19,0
+statements_2024-12-18,Statements,2024-12-18,NSX,holdout,True,True,,,0,0,2024-12-11,0
+minutes_2025-01-08,Minutes,2025-01-08,NSX,holdout,True,True,,,0,0,2024-12-11,3
+statements_2025-01-29,Statements,2025-01-29,NSX,holdout,True,True,,,0,0,2025-01-22,0
+minutes_2025-02-19,Minutes,2025-02-19,NSX,holdout,True,True,,,0,0,2025-02-12,0
+statements_2025-03-19,Statements,2025-03-19,NSX,holdout,True,True,,,0,0,2025-03-12,0
+minutes_2025-04-09,Minutes,2025-04-09,NSX,holdout,True,True,,,0,0,2025-04-02,0
+statements_2025-05-07,Statements,2025-05-07,NSX,holdout,True,True,,,0,0,2025-04-30,0
+minutes_2025-05-28,Minutes,2025-05-28,NSX,holdout,True,True,,,0,0,2025-05-21,0
+statements_2025-06-18,Statements,2025-06-18,NSX,holdout,True,True,,,0,0,2025-06-11,0
+minutes_2025-07-09,Minutes,2025-07-09,NSX,holdout,True,True,,,0,0,2025-07-02,0
+statements_2025-07-30,Statements,2025-07-30,NSX,holdout,True,True,,,0.0166666666667,0,2025-07-23,0
+minutes_2025-08-20,Minutes,2025-08-20,NSX,holdout,True,True,,,0,0,2025-08-13,0
+statements_2025-09-17,Statements,2025-09-17,NSX,holdout,True,True,,,0,0,2025-09-10,0
+minutes_2025-10-08,Minutes,2025-10-08,NSX,holdout,True,True,,,0.0166666666667,0,2025-10-01,0
+statements_2025-10-29,Statements,2025-10-29,NSX,holdout,True,True,,,0,0,2025-10-22,0
+minutes_2025-11-19,Minutes,2025-11-19,NSX,holdout,True,True,,,0,0,2025-11-12,0
+statements_2025-12-10,Statements,2025-12-10,NSX,holdout,True,True,,,0,0,2025-12-03,0
+minutes_2025-12-31,Minutes,2025-12-31,NSX,holdout,True,True,,,0,0,2025-12-17,1
+minutes_2024-01-03,Minutes,2024-01-03,EURUSD,holdout,True,True,,,0.0666666666667,0,2023-12-27,0
+statements_2024-01-31,Statements,2024-01-31,EURUSD,holdout,True,True,,,0.0166666666667,0,2024-01-24,0
+minutes_2024-02-21,Minutes,2024-02-21,EURUSD,holdout,True,True,,,0.05,0.05,2024-02-14,0
+statements_2024-03-20,Statements,2024-03-20,EURUSD,holdout,True,True,,,0.0833333333333,0,2024-03-13,0
+minutes_2024-04-10,Minutes,2024-04-10,EURUSD,holdout,True,True,,,0.0333333333333,0,2024-03-27,1
+statements_2024-05-01,Statements,2024-05-01,EURUSD,holdout,True,True,,,0.0333333333333,0,2024-04-24,0
+minutes_2024-05-22,Minutes,2024-05-22,EURUSD,holdout,True,True,,,0.0166666666667,0,2024-05-15,0
+statements_2024-06-12,Statements,2024-06-12,EURUSD,holdout,True,True,,,0.0166666666667,0,2024-06-05,0
+minutes_2024-07-03,Minutes,2024-07-03,EURUSD,holdout,True,True,,,0.2,0.1,2024-06-26,0
+statements_2024-07-31,Statements,2024-07-31,EURUSD,holdout,True,True,,,0.0833333333333,0,2024-07-24,0
+minutes_2024-08-21,Minutes,2024-08-21,EURUSD,holdout,True,True,,,0.05,0.1,2024-08-14,0
+statements_2024-09-18,Statements,2024-09-18,EURUSD,holdout,True,True,,,0.05,0,2024-09-11,0
+minutes_2024-10-09,Minutes,2024-10-09,EURUSD,holdout,True,True,,,0.15,0.05,2024-10-02,0
+statements_2024-11-07,Statements,2024-11-07,EURUSD,holdout,True,True,,,0.05,0,2024-10-31,0
+minutes_2024-11-26,Minutes,2024-11-26,EURUSD,holdout,True,True,,,0.0333333333333,0,2024-11-19,0
+statements_2024-12-18,Statements,2024-12-18,EURUSD,holdout,True,True,,,0.0166666666667,0,2024-12-11,0
+minutes_2025-01-08,Minutes,2025-01-08,EURUSD,holdout,True,True,,,0.1,0.05,2024-12-11,3
+statements_2025-01-29,Statements,2025-01-29,EURUSD,holdout,True,True,,,0.0333333333333,0,2025-01-22,0
+minutes_2025-02-19,Minutes,2025-02-19,EURUSD,holdout,True,True,,,0.05,0,2025-02-12,0
+statements_2025-03-19,Statements,2025-03-19,EURUSD,holdout,True,True,,,0.05,0,2025-03-12,0
+minutes_2025-04-09,Minutes,2025-04-09,EURUSD,holdout,True,True,,,0,0,2025-04-02,0
+statements_2025-05-07,Statements,2025-05-07,EURUSD,holdout,True,True,,,0.0333333333333,0.05,2025-04-30,0
+minutes_2025-05-28,Minutes,2025-05-28,EURUSD,holdout,True,True,,,0,0.05,2025-05-21,0
+statements_2025-06-18,Statements,2025-06-18,EURUSD,holdout,True,True,,,0.0833333333333,0,2025-06-11,0
+minutes_2025-07-09,Minutes,2025-07-09,EURUSD,holdout,True,True,,,0.0333333333333,0,2025-07-02,0
+statements_2025-07-30,Statements,2025-07-30,EURUSD,holdout,True,True,,,0.0166666666667,0.05,2025-07-23,0
+minutes_2025-08-20,Minutes,2025-08-20,EURUSD,holdout,True,True,,,0,0,2025-08-13,0
+statements_2025-09-17,Statements,2025-09-17,EURUSD,holdout,True,True,,,0.0166666666667,0,2025-09-10,0
+minutes_2025-10-08,Minutes,2025-10-08,EURUSD,holdout,True,True,,,0.1,0,2025-10-01,0
+statements_2025-10-29,Statements,2025-10-29,EURUSD,holdout,True,True,,,0.0833333333333,0,2025-10-22,0
+minutes_2025-11-19,Minutes,2025-11-19,EURUSD,holdout,True,True,,,0.05,0.15,2025-11-12,0
+statements_2025-12-10,Statements,2025-12-10,EURUSD,holdout,True,True,,,0.05,0.05,2025-12-03,0
+minutes_2025-12-31,Minutes,2025-12-31,EURUSD,holdout,True,True,,,0.0333333333333,0.05,2025-12-17,1

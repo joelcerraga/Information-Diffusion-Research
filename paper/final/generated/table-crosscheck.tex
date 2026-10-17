@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.7}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{25mm}L{25mm}C{10mm}C{25mm}C{34mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Type} & \textbf{USMPD field} & \textbf{$N$} & \textbf{Correlation} & \textbf{Median $|\Delta|$ (bp)} & \textbf{RMSE (bp)} \\ \midrule
+Statements & SP500 & 49 & $0.9949$ & $2.17$ & $4.58$ \\ \arrayrulecolor{tablerule}\hline
+Statements & SPFUT & 49 & $0.9932$ & $3.56$ & $5.28$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & SP500 & 51 & $0.9814$ & $1.91$ & $4.75$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & SPFUT & 51 & $0.9682$ & $1.89$ & $6.21$ \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Corrected published-window comparison]{Corrected published-window comparison}\label{tab:crosscheck}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont SPX returns in the nominal $-10$ to $+20$ minute window are compared with the source stock-index and futures returns. Differences include instrument and sampling effects.\par}
+\end{table}

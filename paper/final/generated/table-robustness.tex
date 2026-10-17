@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{73mm}C{12mm}C{25mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Specification} & \textbf{$N$} & \textbf{Slope} & \textbf{95\% interval} \\ \midrule
+Matched weekday placebo & 48 & $1.25$ & $[-1.21,\,3.70]$ \\ \arrayrulecolor{tablerule}\hline
+Pre-event $-60$ to $-10$ placebo & 49 & $2.02$ & $[-2.76,\,6.80]$ \\ \arrayrulecolor{tablerule}\hline
+Origin shifted $-1$ minute & 49 & $-29.03$ & $[-39.73,\,-18.34]$ \\ \arrayrulecolor{tablerule}\hline
+Origin shifted $+1$ minute & 49 & $-10.17$ & $[-20.03,\,-0.31]$ \\ \arrayrulecolor{tablerule}\hline
+Open prices, same bar labels & 49 & $-28.94$ & $[-39.65,\,-18.23]$ \\ \arrayrulecolor{tablerule}\hline
+Open at 0 to open at 20 & 49 & $-28.50$ & $[-39.95,\,-17.04]$ \\ \arrayrulecolor{tablerule}\hline
+Pre-event return / RV controls & 49 & $-25.40$ & $[-37.67,\,-13.14]$ \\ \arrayrulecolor{tablerule}\hline
+Exclude any flat post-event bar & 43 & $-28.59$ & $[-39.58,\,-17.59]$ \\ \arrayrulecolor{tablerule}\hline
+Calendar-year resampling & 49 & $-29.46$ & $[-35.64,\,-15.27]$ \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Primary robustness and placebo checks]{Primary robustness and placebo checks}\label{tab:robustness}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Pooled SPX statements; bp per development surprise SD. The main 20-minute slope is $-29.46$. Year resampling uses eight blocks and is a sensitivity check, not assured nominal inference.\par}
+\end{table}

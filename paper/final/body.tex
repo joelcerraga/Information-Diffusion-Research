@@ -1,0 +1,357 @@
+\section{Introduction and research context}
+\subsection{Background and motivation}
+Public information does not enter every decision process at the same instant. A scheduled release can be read, interpreted and traded by participants with different information sets, technologies and investment horizons. An observed price path may therefore contain an immediate reaction, continuing adjustment, disagreement or reversal. Yet a delayed quote update can create a similar pattern without demonstrating that investors learned slowly. Measuring information diffusion requires these explanations to be distinguished as far as the available observations permit.
+
+As \src{fama1991}{Fama (1991)} explains in \textit{Efficient capital markets: II}, tests of market efficiency depend on the model used to evaluate returns. A movement after an announcement is consequently not sufficient evidence of inefficiency. Expected returns, changing risk assessments, new information and market frictions can all affect the comparison. The present study adopts a narrower objective: estimate how the association between a scheduled release and provider-quoted prices evolves across completed minute horizons, then assess whether a single adjustment-speed summary is defensible.
+
+As \src{hong2000}{Hong, Lim and Stein (2000)} motivate in \textit{Bad news travels slowly}, heterogeneous information diffusion can be associated with gradual price adjustment. Their equity-momentum setting is not a direct test of minute-scale monetary-policy responses. Similarly, \src{hou2005}{Hou and Moskowitz (2005)}, in their study of market frictions and price delay, examine the information contained in lagged market returns. Their work motivates attention to delayed associations without making their weekly-return measure interchangeable with the event-time estimands developed here.
+
+\subsection{Aim and research questions}
+The aim is to build a transparent information-diffusion measurement framework around public, freely accessible data. Four questions organise the investigation. First, can the release clock and the quote clock be aligned and audited sufficiently well to construct a defensible minute panel? Second, do unrestricted response curves distinguish an early association from an additional response over minutes 5--20? Third, do the observed curves satisfy the conditions required to interpret a monotone adjustment model? Fourth, do fixed development relationships transfer to later events, and what does cross-series lag analysis add to the interpretation?
+
+The framework is tested first against known synthetic mechanisms and then applied to Federal Open Market Committee (FOMC) communication. Scheduled statements are the primary setting. Minutes releases, additional quote series and cross-series predictive regressions are exploratory extensions. The objective is measurement and validation, rather than the construction of a trading strategy.
+
+\subsection{Scope and contribution}
+Three price series are examined: HistData SPXUSD, NSXUSD and EURUSD. The first two are provider index-linked quotes, denoted SPX and NSX throughout; they are not consolidated cash-index trades or observations of the SPY and QQQ exchange-traded funds. The dataset contains bid-only one-minute bars. As \src{hasbrouck2007}{Hasbrouck (2007)} explains in \textit{Empirical market microstructure}, observed quote processes require care when drawing conclusions about price discovery. The distinction between a provider quote and an underlying efficient price is therefore maintained throughout the paper.
+
+The contribution is an auditable sequence from data acquisition and clock validation to estimation, synthetic checks, chronological transfer and reporting decisions. An important empirical finding is that the source's documented clock did not align the archived quotes. Correcting that error improved external agreement but also changed the strength of the validation claim, because the original later-period results had already been inspected. Another finding is that no primary-series fit passes every condition for reporting a reliable single adjustment speed. These outcomes are retained as research results rather than removed from the account of the model.
+
+\subsection{Organisation of the paper}
+Section~\ref{sec:framework} establishes the information and identification framework. Sections~\ref{sec:data} and~\ref{sec:clock} describe the public data, event-time conventions and clock audit. Section~\ref{sec:methods} develops the estimators and reporting rules, followed by synthetic validation in Section~\ref{sec:synthetic}. Sections~\ref{sec:results}--\ref{sec:transfer} present response estimates, lag analysis and chronological prediction checks. Section~\ref{sec:robustness} evaluates robustness and speed-reporting gates. The discussion then reflects on observed failures and unresolved limitations before the conclusion and reproducibility appendix.
+
+\chapterstart{Information sets and identification}\label{sec:framework}
+\subsection{What an event response measures}
+As \src{mackinlay1997}{MacKinlay (1997)} explains in \textit{Event studies in economics and finance}, defining the event and its observation window is central to an event study. Here, event time zero is the recorded scheduled statement or minutes-release time. Returns are measured from the last completed pre-event bar to successively later completed bars. This establishes a reproducible response clock; it does not attribute every price movement within the window to the release.
+
+The main regression relates cumulative quote returns to a compact rate-surprise factor. It is a signed conditional association. No contemporaneous equity-market return is subtracted from the index-linked response, since monetary-policy communication can move that market-wide benchmark itself. Pre-event returns, pre-event volatility, matched weekdays and alternative observation boundaries are instead used as explicitly labelled diagnostics. A matched day supplies an observational comparison, not a randomised counterfactual.
+
+Three kinds of lag require separate interpretation. An \textit{event lag} concerns the accumulation of a response after a release. A \textit{cross-series lag} concerns whether one series' return precedes another's. An \textit{information lag} concerns the arrival or interpretation of knowledge. The first two can be described using these data. The third requires stronger assumptions about news, trading and quote formation than a lead--lag coefficient alone provides.
+
+\subsection{A rate factor is not a pure policy shock}
+As \src{gurkaynak2005}{Gürkaynak, Sack and Swanson (2005)} demonstrate in \textit{Do actions speak louder than words?}, monetary-policy actions and statements can contain distinct target and policy-path information. A single principal component of rate changes compresses this variation but does not reproduce their two-factor identification. Its sign and scale are statistical conventions, not a structural definition of a policy intervention.
+
+As \src{jarocinski2020}{Jarociński and Karadi (2020)} explain in \textit{Deconstructing monetary policy surprises}, central-bank announcements may reveal information about economic conditions as well as monetary policy. The return--rate relationship can therefore combine several economic channels. The analysis does not implement a structural information-shock decomposition. A negative equity response to the positively oriented factor is described as an association with a rate-increasing direction of news, without asserting that every input rate increases or that all events carry identical economic content.
+
+\subsection{The information clock and sequential releases}
+The U.S. Monetary Policy Event-Study Database (USMPD) provides rate changes measured over a window from 10 minutes before to 20 minutes after the release. As \src{acosta2026}{Acosta et al. (2026)} describe in their event-study database paper, communication types and measurement windows are integral to interpreting market responses. In this project, the full factor is unavailable at the announcement and remains incomplete for the early response horizons. Estimation of returns inside that window is retrospective even when the fitted regression coefficients come from earlier calendar years.
+
+A separate prediction exercise covers minutes 20--25. This target begins after the factor's observation window, but assumes idealised immediate availability at minute 20; publication latency is not measured. The exercise remains a diagnostic of conditional transfer, without transaction costs, ask quotes, executable fills or position sizing.
+
+Statements and press conferences are also distinct information releases. The primary response horizon ends at minute 20, before the usual subsequent press conference. Extended event-path plots can include the press conference and other intervening news. Later movements in those plots cannot be attributed solely to slow incorporation of the original statement. The first later-period statement is used as a date-selected illustration in Figure~\ref{fig:11}, rather than selecting an event for a particularly favourable visual pattern.
+
+\chapterstart{Public data and event-time construction}\label{sec:data}
+\subsection{Source roles and acquisition}
+The data route uses freely accessible research and provider downloads without an API key, subscription or trading account. The \src{usmpd}{Federal Reserve Bank of San Francisco (2026)} supplies the USMPD workbook, including event times, rate-surprise inputs and published stock-index and futures window returns. The snapshot was retrieved on 16 October 2026; its stated update is 17 September 2026. HistData annual Generic ASCII M1 archives supply the three quote series. Twenty-seven annual archives cover 2017--2025, including pre-sample dates required for matched controls.
+
+\paperTable{sources}
+
+An initial route through \src{dukascopy}{Dukascopy Bank SA (n.d.)} was technically available but progressed too slowly through daily bid and ask files for the planned panel. Amendment A01 moved the main acquisition to annual HistData archives before study-period intraday responses were fitted. Selected Dukascopy files were subsequently retained for clock comparisons. The amendment also changed the instrument interpretation: the analysis no longer claimed access to the initially proposed ETF bid/ask panel.
+
+As the \src{histdata-a}{HistData.com (n.d.a)} specification describes, the retained format contains bid open, high, low and close observations. Its \src{histdata-b}{support documentation (HistData.com, n.d.b)} also informs the limitations of the available fields. The volume field is discarded; neither meaningful market volume nor a contemporaneous bid--ask spread is inferred. Raw files are cached with retrieval records and SHA-256 hashes. Free access is distinguished from a confirmed redistribution licence in the accompanying data-rights record.
+
+\subsection{Events and chronological samples}
+The event register contains 63 scheduled statements and 65 minutes releases from 2018 through 2025. Seven unscheduled statements are excluded from the primary register. Scheduled 14:00 releases in the America/New\_York time zone are used, with the appropriate US seasonal offset. Development covers 2018--2022, validation covers 2023, and the later period covers 2024--2025. The later sample is described as post-audit chronological transfer for the reasons established in Section~\ref{sec:clock}.
+
+\paperTable{events}
+
+These partitions are retained after the data audit. The primary asset remains SPX despite better development coverage for NSX and EURUSD. The later period contains only 16 statement events, so a chronological split creates a demanding small-sample evaluation rather than a large independent validation dataset. The factor is fitted using all 39 development statements with available rate inputs, before price-window exclusions; quote coverage does not recenter the factor.
+
+\subsection{Minute returns and completed horizons}
+Let $e$ index events, $a$ quote series and $t$ the minute-bar start offset relative to the release. $P_{e,a,t}$ denotes the bid close of the bar starting at offset $t$. A basis point (bp) is one hundredth of one percentage point. The minute log return is
+\paperEq{1}
+Equation~\ref{eq:1} expresses proportional quote changes in basis points. No price-level comparability between SPX, NSX and EURUSD is required: each return uses two observations from the same series.
+
+For a completed horizon $h\geq1$, the cumulative event response is
+\paperEq{2}
+The pre-event baseline is the close of bar $-1$. Horizon one uses the close of bar zero, and horizon 20 uses the close of bar 19. Thus the first observed response is a completed one-minute interval, not an instantaneous price jump. The convention also fixes the relationship between data labels and the endpoints of the published comparison window. Open-price and one-minute-origin alternatives are retained as sensitivities rather than substituted after viewing the result.
+
+\subsection{Completeness, exclusions and matched controls}
+Every required minute from offset $-61$ through $+25$ must be present with positive, internally valid OHLC values. Invalid or duplicate observations are rejected by the processing checks. An incomplete event--asset pair is excluded as a whole. There is no forward filling or interpolation. Extended visual windows can contain gaps beyond the required analysis range, and those gaps remain visible.
+
+\paperTable{coverage}
+
+The corrected panel retains 336 of 384 planned event--asset pairs. SPX development statements retain 30 of 39 events, or 76.9\%; the pooled statement sample retains 49 of 63, or 77.8\%. Both fall below the declared 80\% sample-coverage threshold. Validation has only three accepted statements and four minutes releases per series, below the minimum of six events for the planned response analysis. Later statements have complete coverage for all three assets. Figure~\ref{fig:2} shows these differences without obscuring the rejected windows.
+
+\paperFig{2}
+
+Matched controls use the first available date 7, 14, 21 or 28 days before the event, at the same weekday and local release time. All USMPD communication dates are excluded from this candidate set. The fallback rule depends on availability, not the realised return. One accepted development SPX statement lacks an eligible complete control, leaving 48 matched pairs across the 49 accepted pooled statements. Even eligible controls can contain other news and differ in market conditions; they are descriptive comparisons.
+
+The completeness rule prevents fabricated minute paths but may select a nonrepresentative event sample. Comparing surprise magnitude between accepted and excluded pairs is therefore retained as a descriptive audit. That comparison cannot establish missing-at-random sampling. The coverage failure continues to constrain interpretation even after the clock correction improves alignment.
+
+\chapterstart{Clock audit and the status of later-period evaluation}\label{sec:clock}
+\subsection{Detecting a documentation mismatch}
+The initial HistData panel followed the documented fixed Eastern Standard Time convention. Its disagreement with published USMPD window returns prompted a minute-by-minute comparison against a separate quote-download route. On 21 September 2022, interpreting the archive according to the documented clock produced an SPX/SPY minute-return correlation of $-0.0037$. Looking up source observations one hour later raised the correlation to $0.9995$. Corresponding Nasdaq-linked and FX probes showed the same displacement.
+
+\paperTable{clock}
+
+The March 2022 probes are informative because US and European seasonal states differed on that date. SPX/SPY and EURUSD aligned under the original lookup then, rather than under an additional one-hour lookup. The combined evidence therefore supports a European seasonal calendar mapping for these archives, rather than indiscriminately shifting every observation or following US daylight-saving dates.
+
+As \src{kebe2024}{Kebe and Uhl (2024)} report in \textit{High-frequency effects of novel news on the EURUSD exchange rate}, HistData daylight adjustments can contradict its fixed-EST documentation. Their finding corroborates the mismatch. The particular European rule applied here is inferred from this project's probes and window comparisons; it is not attributed to their article. Moreover, independently downloaded records may share an underlying price source. Near-perfect cross-route agreement, particularly in EURUSD, supports timing but is not proof of economically independent feeds.
+
+\paperFig{12}
+
+\subsection{A deterministic correction and external checks}
+Amendment A02 applies a single calendar rule to all three assets and to both event and control dates:
+\paperEq{19}
+Here $d_{\mathrm{Europe}}$ is one hour during European summer time and zero otherwise. The implementation uses the Europe/London seasonal offset and then adds five hours; this does not mean the recorded timestamps are London local time. No event-specific shift is chosen to maximise its response, its correlation or its fit to a preferred hypothesis. Selected probes establish support for the rule, not exhaustive certification of every archived minute.
+
+\paperTable{crosscheck}
+
+Corrected SPX statement-window returns correlate 0.9949 with the USMPD SP500 comparison and 0.9932 with SPFUT. Median absolute differences are 2.17 and 3.56 bp, respectively. Figure~\ref{fig:6} displays the full set of accepted statement-window comparisons rather than selected close matches. The minutes comparisons also improve, although their correlations are lower. Different instruments, simple versus logarithmic returns, provider quotes and endpoint sampling mean that the published series is not minute-level ground truth.
+
+\paperFig{6}
+
+\subsection{Preserving the research chronology}
+The documented-clock run, including its processed data and analytical outputs, is preserved unchanged. The original later-period response results had already been examined when the clock problem was found. Corrected development models were therefore refitted and frozen before corrected later predictions were recalculated, while the original design, factor inputs, windows, primary asset and reporting gates were retained.
+
+This procedure preserves a chronological coefficient fit but does not restore untouched validation. The corrected 2024--2025 exercise is consistently described as \textit{post-audit chronological transfer}. Internal filenames retaining the historical phase name \texttt{holdout} do not imply otherwise. The original and corrected freezes are internal research records, not external preregistration or prospective blinding. This limitation follows from the actual order of observations and remains relevant even though the correction was supported by an independent clock audit.
+
+\chapterstart{Mathematical methodology}\label{sec:methods}
+\subsection{A frozen rate-surprise factor}
+The USMPD supplies changes in five rate inputs: MP1, MP2, ED2, ED3 and ED4. Their percentage-point values are converted to basis points:
+\paperEq{3}
+The quarterly-rate inputs follow the source's transition from Eurodollar to SOFR beginning in 2022. Those source definitions are preserved rather than reconstructed into a different shock series. Consequently, the factor's interpretation remains conditional on the database construction.
+
+Covariance principal-component analysis is fitted on the 39 development statements. Let $\mathbf{w}$ be its first loading vector, oriented so that the sum of loadings is positive. The development input mean is $\bar{\mathbf{x}}_{\mathrm{dev}}$, and $s_{\mathrm{dev}}$ is the sample standard deviation of the first-component development scores. The factor is
+\paperEq{4}
+The centre, loadings and scale are transferred unchanged to validation, later statements and all minutes releases. A one-unit factor movement means one development statement-score standard deviation. It does not mean a one-basis-point target-rate surprise. The first component explains 91.49\% of development rate-input variance; the unstandardised score SD is 8.0097 bp. Table~\ref{tab:pca} records the fitted loadings, including the small negative loading on MP1.
+
+\paperTable{pca}
+
+Following the motivation of \src{acosta2026}{Acosta et al. (2026)}, the different maturities summarise rate variation around communication events. The normalisation here is specific to a chronological development sample and is not a replication of every normalisation or identification choice in that paper. Response uncertainty is conditional on the estimated frozen factor; it does not propagate first-stage PCA estimation uncertainty.
+
+\subsection{Unrestricted response paths and lagged adjustment}
+At each completed horizon, cumulative returns are regressed on an intercept and the same event-level factor:
+\paperEq{5}
+The slope $\beta_{a,h}$ has units of bp per development surprise SD. Each horizon uses the same accepted event sample, avoiding a mechanically changing composition as $h$ increases. As \src{jorda2005}{Jordà (2005)} motivates in \textit{Estimation and inference of impulse responses by local projections}, separate horizon regressions avoid imposing a complete dynamic curve in advance. The present event-level adaptation estimates response associations rather than structural impulse responses.
+
+The change in cumulative association between adjacent horizons is
+\paperEq{6}
+This is an increment in the fitted slope, not a direct observation of the fraction of investors informed. The predeclared lagged-response quantity concentrates on the additional association over minutes 5--20:
+\paperEq{7}
+It is estimated directly by regressing $Y(20)-Y(5)$ on the intercept and $z_e$. With the same design and sample, that coefficient equals the difference of the two separately fitted cumulative slopes. Direct estimation retains their covariance in the standard error. A confidence interval containing zero indicates imprecision about additional adjustment; it does not establish completion.
+
+\subsection{Pointwise and simultaneous uncertainty}
+As \src{mackinnon1985}{MacKinnon and White (1985)} motivate in their study of heteroskedasticity-consistent estimators, leverage adjustment is relevant to finite-sample covariance estimation. Let $X$ be the regression design matrix, $\ell_e$ the OLS leverage and $\mathbf{x}^{R}_e$ the column-vector representation of event $e$'s design row. The HC3 estimator is
+\paperEq{11}
+For the primary intercept-plus-factor regression, $\mathbf{x}^{R}_e=(1,z_e)^{\mathsf T}$. This vector is distinct from the five-rate input $\mathbf{x}_e$. Pointwise two-sided 95\% intervals use a Student-$t$ critical value with $N-p$ residual degrees of freedom, where $p$ is the number of regression coefficients. This is a finite-sample reference approximation, not exact coverage under arbitrary heteroskedastic errors.
+
+The 20 horizons are dependent because their cumulative returns overlap. The wild bootstrap therefore resamples a whole event path with a shared Rademacher sign:
+\paperEq{12}
+Each draw uses one $v_e$ across every horizon for event $e$, while signs are independent across events. The analytical runs use 1,999 draws. As \src{davidson2008}{Davidson and Flachaire (2008)} explain in \textit{The wild bootstrap, tamed at last}, bootstrap performance depends on the error structure and implementation. The event-path maximum-studentised procedure here is an adaptation evaluated in the synthetic experiments.
+
+The simultaneous response band is
+\paperEq{13}
+The critical value $c_{0.95}$ is the 95th percentile of the bootstrap maximum absolute studentised coefficient error over all 20 horizons, with bootstrap standard errors recalculated in each draw. Its scope is one asset, communication type and sample family. It does not correct every asset, event type, sensitivity and exploratory test in the project. Event-level independence is assumed for the main uncertainty procedure; calendar-year resampling is reported as a sensitivity with few blocks.
+
+\subsection{Conditional adjustment speed and reporting conditions}
+A monotone response model is fitted only after inspecting the unrestricted path:
+\paperEq{8}
+Here $A$ is the signed model amplitude, $f$ the fraction of that amplitude attained by the first completed minute, and $k$ the remaining adjustment rate per minute. The expression approaches $A$ as time increases. It cannot represent overshooting followed by reversal without changing its interpretation, and $f$ is not a measured instantaneous jump.
+
+Dividing Equation~\ref{eq:8} by $A$ and solving for a target fraction $q$ yields
+\paperEq{9}
+When $f\geq q$, the model places attainment at the first observed minute. It cannot identify an earlier sub-minute time from these bars. For $f<q$, the formula uses a continuous extension of the fitted minute-horizon curve. The half-life of the gap remaining after minute one is
+\paperEq{10}
+This elapsed half-life differs from the time to 50\% of the total model amplitude when $f$ is nonzero. Both quantities are conditional on the monotone model, its plateau and the available horizon.
+
+The curve is fitted by equally weighted nonlinear least squares across the 20 slope estimates, using multiple starting values. Bounds are $0\leq f\leq1$ and $0.01\leq k\leq5$ per minute; the amplitude bound is set from the observed slope scale. These are numerical restrictions rather than evidence about the economic speed. Fits close to the $f$ or $k$ boundaries are treated as inadequate for reporting a speed.
+
+The terminal slope's 95\% interval must exclude zero, the normalised curve RMSE must not exceed 0.25, parameters must be interior, at least 90\% of the first 199 bootstrap curve fits must be valid, and the event sample must satisfy its minimum size and 80\% coverage rule. The plateau diagnostic additionally requires
+\paperEq{18}
+The 90\% interval concerns the difference between minutes 10 and 20. Because its tolerance depends on an estimated terminal response, this is a reporting heuristic rather than a validated formal equivalence test. Minimum sample sizes are 25 development events, 6 validation events and 10 later events; the pooled reporting check uses at least 25. A failed gate blocks empirical speed reporting even if an optimiser returns a finite $t_{90}$.
+
+\subsection{Activity, cross-series lags and prediction loss}
+Realised variance provides a separate measure of activity over the first 20 minutes:
+\paperEq{14}
+The sum is in squared basis points. For matched event/control pairs, the analysis reports the exponential of the median log variance ratio and an event-pair percentile-bootstrap interval. A large ratio measures increased quote variation, not a percentage of information absorbed.
+
+Cross-series correlations compare source return $r^A_t$ with target return $r^B_{t+\ell}$ for lags from $-5$ to $+5$ minutes after demeaning within each event's paired window. Positive $\ell$ means the source precedes the target. The predictive extension conditions on three target lags and three source lags:
+\paperEq{16}
+The event fixed effect is $\mu_e$. An event-cluster CR1 covariance and approximate Wald-$F$ reference evaluate the three cross-lag coefficients jointly. Each event contributes 17 usable minute rows. As \src{nickell1981}{Nickell (1981)} demonstrates in \textit{Biases in dynamic models with fixed effects}, lagged dependent variables can create coefficient bias in short fixed-effects panels. Clustered standard errors do not remove that bias. These tests remain exploratory.
+
+For chronological evaluation, a development-fitted intercept and slope are held fixed and compared with a development-mean baseline. The paired mean-squared-error difference is
+\paperEq{15}
+Negative differences favour the factor model. The paired event bootstrap resamples the same events for both squared-error series, using 1,999 draws. This preserves the comparison but still relies on event-level sampling assumptions. Cumulative 0--20-minute and additional 5--20-minute targets are retrospective; the 20--25-minute target assumes idealised availability at the end of the factor window.
+
+\chapterstart{Synthetic validation and known failure mechanisms}\label{sec:synthetic}
+\subsection{Experimental design}
+Synthetic observations make the underlying response known, allowing estimator error to be distinguished from uncertainty about a real market mechanism. Six cases are considered: immediate adjustment, gradual adjustment, reversal, no response, continuing drift and stale quotes. Table~\ref{tab:synthetic-design} defines each deterministic slope path. The cases deliberately include mechanisms that a monotone adjustment curve should not be trusted to summarise.
+
+\paperTable{synthetic-design}
+
+For each event, the surprise is drawn from a standard normal distribution. The cumulative return is the known slope path multiplied by that event's surprise, plus cumulative noise. Noise increments use Student-$t$ innovations with five degrees of freedom, scaled to introduce heteroskedasticity through $1+0.45|z_e|$ and serial dependence through an autoregressive coefficient of 0.25. The innovation scale is $1.6\sqrt{3/5}$ before the heteroskedastic multiplier. These choices produce non-Gaussian, dependent paths within events; they are controlled stress conditions rather than a fitted model of all market microstructure.
+
+The initial design uses 200 replications for each mechanism at $N=40$ and $N=80$. After the empirical coverage audit, $N=16$ and $N=30$ are added as explicitly supplementary checks corresponding more closely to the realised later and development statement samples. This adds information about small-sample behaviour without retuning the main empirical estimator or treating the supplementary conditions as initially specified.
+
+\paperFig{1}
+
+\subsection{Parameter recovery and what a response curve can reveal}
+The noiseless gradual case uses $A=-25$, $f=0.25$ and $k=0.22$ per minute. The numerical fit recovers those values to tolerance. The model-implied time to 90\% adjustment is 10.15865 minutes, while the remaining-gap half-life is 3.15067 minutes. These are known synthetic quantities and provide an implementation check for Equations~\ref{eq:8}--\ref{eq:10}; they are not estimates of FOMC information-diffusion speed.
+
+Figure~\ref{fig:1} demonstrates why unrestricted horizon estimates precede a speed model. A reversal has a large early response that subsequently recedes, while continuing drift has no convincing plateau inside the window. The stale-quote case is flat for the first two observed horizons and then jumps, although the underlying illustrative response is immediate. An apparently delayed path therefore need not imply slow investor learning. In the null case, numerical fluctuations around zero must not be normalised into a meaningful adjustment fraction.
+
+The synthetic example recomputed in Notebook 02 reproduces the saved 80-event gradual fit and its 1,999-draw simultaneous band. Replication-level output is also retained so that summary coverage is checked against each underlying simulated experiment. Successful noiseless recovery validates the implemented algebra and optimiser in a suitable mechanism; it does not validate the monotone family for reversals or arbitrary market paths.
+
+\subsection{Coverage, power and Monte Carlo uncertainty}
+As \src{morris2019}{Morris, White and Crowther (2019)} explain in \textit{Using simulation studies to evaluate statistical methods}, simulation performance estimates have their own sampling uncertainty. For an estimated coverage or rejection frequency $\hat p$ across $M$ independent replications, the Monte Carlo standard error is
+\paperEq{17}
+The main replication experiments use 199 wild-bootstrap draws per simulated dataset for computational economy; the illustrated response curves and empirical bands use 1,999. Coverage results consequently evaluate the stated replication procedure rather than assuming all bootstrap counts are interchangeable.
+
+\paperTable{synthetic-coverage}
+
+The six mechanisms use common random numbers at each sample size and replication. They differ by an additive deterministic signal, while their surprise and error draws are shared. In this linear setting, identical coefficient-error and coverage patterns across mechanisms are expected. There are 4,800 scenario fits but only 800 distinct noise draws: 200 at each of four sample sizes. Each mechanism-size cell has 200 independent replications; pooling paired mechanisms as independent replications would overstate precision.
+
+\paperTable{synthetic-power}
+
+The observed null late-response rejection rate is 8.5\% at $N=80$, with MCSE about 1.97 percentage points, compared with a nominal 5\% reference. This above-nominal estimate is retained rather than dismissed or treated as proof of exact calibration. At $N=16$, gradual-response rejection occurs in only 41.5\% of replications, illustrating the limited power of a sample the size of the later statement period. Simultaneous path coverage ranges from 93.0\% to 95.5\% across these four settings, again with non-negligible Monte Carlo error.
+
+The simulations support the use of unrestricted response paths and explicit uncertainty, while exposing limitations of small samples and of shape-based interpretation. They do not verify every possible dependence structure, first-stage factor error or provider-quote failure encountered in the empirical application.
+
+\chapterstart{Empirical response paths and event activity}\label{sec:results}
+\subsection{Primary SPX statement responses}
+Figure~\ref{fig:3} presents the primary statement response in development, the later period and the pooled sample, with pointwise and horizon-family simultaneous bands. Table~\ref{tab:effects} reports the corresponding terminal and additional 5--20-minute slopes. The development 20-minute association is $-37.15$ bp per development surprise SD, with a 95\% HC3 interval of $[-54.90,-19.40]$. The later-period estimate is $-20.62$ bp, with interval $[-37.80,-3.44]$.
+
+\paperTable{effects}
+
+These estimates are compatible with a negative response to the positively oriented factor in the accepted windows. Their differing point estimates do not establish a statistically significant change between periods. The uncertainty is broad, and the primary development sample fails the coverage gate. The 2023 observations remain in the pooled descriptive sample, but there are too few to estimate the declared validation response curves separately.
+
+\paperFig{3}
+
+The pooled 20-minute statement slope is $-29.46$ bp, with interval $[-40.31,-18.61]$. The pooled first-minute slope is already $-19.90$ bp, and the minute-five estimate is $-29.90$ bp. This pattern is consistent with an early association. However, dividing these estimated slopes to announce a precise fraction of information absorbed would add a ratio interpretation that the reporting gates have not validated.
+
+The pooled additional 5--20-minute slope is $+0.44$ bp, with interval $[-6.66,+7.54]$. Development and later estimates of the same quantity also have intervals containing zero. This is evidence of imprecision about further adjustment over the specified interval, not evidence that every element of the announcement has been incorporated by minute five. A plateau claim requires more than a non-rejection result.
+
+\subsection{Communication types and additional quote series}
+Pooled minutes releases differ visually from statements: their SPX first-minute slope is $+2.55$ bp and the minute-five slope is $-4.24$ bp, both imprecise, while the minute-20 slope is $-32.29$ bp. The additional 5--20-minute association is $-28.05$ bp, with interval $[-51.23,-4.86]$. Figure~\ref{fig:4} places the primary and additional series alongside both communication types. Each panel uses its own vertical scale; visual magnitude comparisons must therefore be checked against the numerical units.
+
+\paperFig{4}
+
+Minutes results are exploratory. They reuse the factor scaled on development statements, rather than refitting a separate factor after viewing minutes outcomes. Rate variation, the economic meaning of a release and the available sample can all differ across types. A large slope per development statement SD need not indicate a proportionately large typical minutes response. The pooled minutes completeness is also below 80\%, and the speed diagnostics fail for reasons discussed in Section~\ref{sec:robustness}.
+
+\paperFig{5}
+
+Figure~\ref{fig:5} focuses on the predeclared lag interval while retaining all three assets and both communication types. The simultaneous bands elsewhere protect a 20-horizon family; these additional panels and comparisons do not receive a project-wide multiplicity correction. They are useful for understanding the observed pattern, but they cannot be promoted into independent confirmatory findings after inspection.
+
+\subsection{Event activity relative to matched weekdays}
+The median event/control realised-variance ratio for pooled SPX statements is 10.58, with an event-pair bootstrap interval from 5.11 to 19.81. For SPX minutes it is 2.95, with interval from 1.90 to 8.77. Table~\ref{tab:rv} reports the same quantities for NSX and EURUSD, and Figure~\ref{fig:7} displays the ratios on a logarithmic scale.
+
+\paperTable{rv}
+\paperFig{7}
+
+Accepted event windows are unusually active relative to their selected controls, but the ratios do not measure information completeness. Volatility can rise through disagreement, liquidity changes, quote noise or simultaneous news. Matched dates remain observational comparisons, so these ratios complement the signed regressions without identifying their mechanism.
+
+\chapterstart{Lead--lag analysis and interactive interpretation}\label{sec:lag}
+\subsection{Learning the lag convention with a known mechanism}
+Notebook 04 constructs a source process and a target that follows it by exactly two minutes, with additional independent target noise. The diagnostic correlates the source at time $t$ with the target at time $t+\ell$, after demeaning each event's paired observations. Its largest sample correlation occurs at $\ell=2$, as intended. This controlled example verifies the sign convention before interpreting a market-data plot.
+
+The same convention is applied over lags from $-5$ to $+5$ minutes in Figure~\ref{fig:9}. A positive lag means the source precedes the target. A zero-lag peak means contemporaneous co-movement at this sampling frequency. It does not establish that the two series adjust at exactly the same sub-minute instant, since the observations aggregate activity within minute bars.
+
+\paperFig{9}
+
+\subsection{Observed correlations and predictive diagnostics}
+The pooled SPX--NSX zero-lag correlation is 0.9750 for statements and 0.9747 for minutes. SPX--EURUSD zero-lag correlations are lower, at 0.6340 and 0.3970, respectively. Common news and common quote timing provide plausible explanations for strong contemporaneous co-movement. Nonzero-lag features can also arise from stale observations, asynchronous updates or persistence in the target itself.
+
+Table~\ref{tab:lead-lag} reports the dynamic fixed-effects extension after including the target's own three lagged returns. Its incremental $R^2$ measures the proportional reduction in residual sum of squares when the three source lags are added to that own-lag model. It is an in-sample fit statistic, not a chronological prediction gain.
+
+\paperTable{lead-lag}
+
+No statement-direction test in this displayed set has an unadjusted p-value below 0.05. Several minutes-direction tests do, including EURUSD to SPX, with an incremental $R^2$ of 0.0822. These values are retained, but they do not establish a tradable lead. The same-event dependence is handled only approximately by a finite-cluster reference distribution, the many comparisons are not globally adjusted, and the short dynamic fixed-effects panel is susceptible to the bias identified by \src{nickell1981}{Nickell (1981)}. Neither a small p-value nor an in-sample fit improvement resolves the economic direction of information flow.
+
+\subsection{Three-dimensional surfaces as explanatory companions}
+The offline companion provides three views. The response surface displays $\hat\beta(h)z$ across horizons and factor values, with a selected two-dimensional slice and its simultaneous band. The intercept is excluded, so the surface measures the fitted difference relative to a zero-surprise prediction. It is a linear association surface, not a probability density or an observed price at every point.
+
+The event-path view draws separate observed events without interpolating a surface between them. It preserves missing extended-window observations and allows a single date to be inspected in two dimensions. The diffusion laboratory controls $A$, $f$, $k$ and a quote-delay parameter in a synthetic mechanism. It distinguishes slow latent adjustment from delayed observation, while labelling its displayed $t_{90}$ as theoretical. Figure~\ref{fig:13} provides static counterparts to the response and laboratory surfaces for the printed paper.
+
+\paperFig{13}
+
+Three-dimensional presentation can clarify how a fitted relationship depends on two inputs, but it does not supply additional observations or stronger identification. The two-dimensional slices, uncertainty bands and numerical tables remain necessary. The companion uses the same corrected data and frozen coefficients as the paper; changing a slider does not refit the empirical model.
+
+\chapterstart{Post-audit chronological transfer}\label{sec:transfer}
+\subsection{Frozen models and the baseline comparison}
+The corrected development factor and prediction coefficients are frozen before corrected later-period predictions are recalculated. Each target uses a development-fitted intercept and factor slope. Its baseline is the development mean of the same target, transferred unchanged. The later statement sample contains 16 events. Coefficients are not fitted on those events, but the original documented-clock later outcomes had already been inspected, so the comparison remains post-audit.
+
+The prediction targets deliberately separate two questions. Cumulative 0--20-minute and additional 5--20-minute returns test whether an earlier conditional relationship transfers to later events using an ex-post factor. The 20--25-minute target begins after the factor window and asks a more limited timing question under idealised availability. Treating all three as announcement-time forecasts would conflate their information sets.
+
+\paperTable{transfer}
+\paperFig{8}
+
+For the 0--20-minute target, model MSE is 949.17 bp$^2$ and baseline MSE is 957.96 bp$^2$. The paired difference is $-8.80$ bp$^2$, with a bootstrap interval from $-1{,}075.41$ to $965.85$. The point estimate is nearly equal to the baseline relative to the width of its uncertainty. The 5--20-minute and 20--25-minute model losses are larger than their respective baseline point estimates, but their paired difference intervals also contain zero.
+
+The three comparisons therefore provide no convincing evidence of improved chronological prediction in the primary later sample. They also do not establish equivalence or prove that every future event would behave similarly. With only 16 events, interval width and influence are material. The unchanged baseline is deliberately simple so that a weak improvement cannot be attributed to an artificially demanding alternative model.
+
+\subsection{Sequential news and the scope of prediction}
+The first later-period statement, on 31 January 2024, illustrates the distinction between a narrow event window and an extended news sequence. Figure~\ref{fig:11} marks the primary 20-minute interval and the subsequent press-conference boundary. The date is selected chronologically rather than for its realised response. Later movements can reflect new information, reinterpretation or other market developments, so the extended path is descriptive.
+
+\paperFig{11}
+
+Even the temporally separated 20--25-minute prediction omits practical delays in observing and publishing the full rate factor. The bid-only source cannot establish executable entry and exit prices or spreads. There are no transaction costs, portfolio constraints, trade sizes or borrowing assumptions because the exercise is not a trading backtest. A future genuinely untouched sample with the corrected clock rule fixed in advance would provide stronger evidence about transfer, while better real-time inputs would address a different information-availability limitation.
+
+\chapterstart{Robustness and the decision not to report a speed}\label{sec:robustness}
+\subsection{Observation boundaries, controls and placebos}
+Table~\ref{tab:robustness} retains the specified primary-series checks. The pooled SPX statement slope remains negative under the open-price variants, added pre-event return and volatility controls, exclusion of any flat post-event bar and calendar-year resampling. These results support the persistence of a signed association within several specifications, but they do not establish that its precise magnitude is invariant.
+
+\paperTable{robustness}
+
+Shifting the origin forward by one minute changes the point estimate to $-10.17$ bp per factor SD, compared with the main $-29.46$ bp. This sensitivity has a concrete interpretation: the shifted baseline is after the first response minute, and its endpoint is also one minute later. It removes much of the initial reaction rather than merely relabelling the same return. The result reinforces the importance of the bar convention and the concentration of the statement association near the release. It should not be presented as evidence that all timestamp choices give the same estimate.
+
+The pooled pre-event $-60$-to-$-10$ slope is $+2.02$ bp, with interval $[-2.76,+6.80]$. The matched-day 20-minute placebo is $+1.25$ bp, with interval $[-1.21,+3.70]$. Neither interval excludes zero, but a non-rejection does not prove that anticipation or confounding is absent. The controls address selected alternative explanations and do not transform the observational association into a causal estimate.
+
+\subsection{Influence and dependence sensitivity}
+Every accepted pooled statement is omitted once in a complete leave-one-event-out calculation. The resulting 20-minute SPX slopes range from $-31.00$ to $-25.70$ bp per factor SD, compared with the full-sample value of $-29.46$. Omitting 21 September 2022 produces the least negative slope; omitting 15 December 2021 produces the most negative. Figure~\ref{fig:10} shows all omissions rather than using influence as a reason to remove inconvenient events from the main sample.
+
+\paperFig{10}
+
+Calendar-year resampling gives a pooled statement interval from $-35.64$ to $-15.27$ bp for the 20-minute slope. There are only eight year blocks, so that interval is a dependence sensitivity rather than assurance of nominal coverage. The main HC3 and wild-bootstrap intervals remain conditional on the frozen factor and the assumed independence across events. Agreement across selected procedures cannot verify an unobserved data-generating process.
+
+\subsection{Reporting gates and numerical fit stability}
+Table~\ref{tab:gates} separates the model diagnostics from the coverage rule. No development, later or pooled SPX statement/minutes fit satisfies every condition. For pooled statements, the terminal, plateau, shape and interior-parameter checks pass, but only 83.4\% of the bootstrap curve fits meet the validity criteria and the event coverage is 77.8\%. For pooled minutes, the plateau and interior checks fail, valid bootstrap fits fall to 17.6\%, and coverage is 78.5\%.
+
+\paperTable{gates}
+
+The later sample resolves the statement coverage problem but does not resolve shape identification: its plateau, interior-parameter and bootstrap-stability conditions fail. Later minutes also have a terminal-response interval containing zero. The failure is therefore not attributable to one universal obstacle that could be removed by selecting a better-covered period or a different optimiser output.
+
+Raw optimiser candidates remain in diagnostic files so that the computation is reproducible. They are not reported as empirical diffusion times in the paper. A finite candidate $t_{90}$ is a property of a fitted function; it becomes an interpretable summary only if the surrounding evidence supports that function and its sample. The appropriate conclusion is that a single reliable speed is unsupported under the declared rules, rather than that prices do not respond.
+
+\chapterstart{Discussion and research reflections}
+\subsection{What the completed analysis establishes}
+The accepted statement windows exhibit an early signed association with the frozen rate factor. Minutes releases show a more delayed exploratory association, and both types display increased activity relative to their matched controls. These findings describe provider quotes at one-minute resolution and a specified ex-post information measure. They do not identify the exact instant at which every part of a release is incorporated or isolate a structural monetary-policy mechanism.
+
+The distinction matters because a response curve can be estimated more reliably than its economic interpretation. As \src{fama1991}{Fama (1991)} emphasises through the joint-hypothesis problem, an empirical test inherits assumptions from its return model. As \src{hasbrouck2007}{Hasbrouck (2007)} explains in the market-microstructure setting, the observation process itself matters. In this study, the clock audit provides a direct example: an apparent lagged relationship can be distorted by the mapping between source labels and actual market time before any behavioural mechanism is considered.
+
+\subsection{Acquisition and timing failures}
+The first acquisition attempt failed as a practical route to the planned panel: daily compressed requests were too slow and intermittent. Moving to annual archives made the research feasible with free access, but required explicit changes to the asset interpretation and available diagnostics. The resulting bid-only panel could not support the original bid/ask checks. Open-price, flat-bar and timing sensitivities addressed available dimensions of robustness, while the absence of spread and execution data remained unresolved.
+
+The more consequential failure was accepting a documented time-zone convention without sufficient cross-source validation at the outset. Published-window disagreement exposed the mismatch. Selected minute probes and the March/September seasonal contrast motivated the global A02 correction, while the original panel remained archived. The improvement in agreement provides evidence for the correction, but neither the provider documentation nor a high aggregate correlation certifies every bar. An earlier independent clock audit would have prevented the original later sample from being inspected under a faulty alignment.
+
+\subsection{Coverage and model failures}
+The correction did not restore missing bars. In particular, 2023 remained too sparse for the declared validation regressions, and the primary development and pooled samples remained below the coverage threshold. Relaxing the required window or promoting a better-covered secondary series after inspection would have changed the study being evaluated. The retained exclusions instead make the limitation measurable: the estimates describe accepted windows and cannot be assumed to represent every scheduled release.
+
+The monotone adjustment model also failed to deliver an adequately supported empirical speed. Some paths did not plateau, some parameter estimates approached numerical boundaries, and bootstrap fits were often unstable. Retaining the unrestricted horizon estimates prevented a forced interpretation of these failures as a smooth diffusion law. The fact that a clean synthetic mechanism is recovered accurately does not imply that the empirical mechanism belongs to the same model family.
+
+\subsection{Calibration and presentation failures}
+The simulations did not produce uniformly nominal rejection frequencies. The N=80 null rejection rate of 8.5\% and the weak N=16 gradual-response power are retained alongside Monte Carlo error. Supplementary observed-size experiments improve the diagnosis but are labelled as additions after the coverage audit. They do not retrospectively change the original validation design.
+
+Visual review also exposed two implementation problems in the presentation layer. A CSV reader initially interpreted the literal scenario name \texttt{null} as a missing value, omitting its displayed subplot even though the analytical simulation records were intact. Explicit missing-value tokens and checks for all six mechanisms corrected that defect. Separately, the bundled plotting version required structured axis-title objects; browser inspection revealed generic axis labels, which were corrected and checked with units. These repairs changed presentation code, while the frozen analytical modules remained unchanged. Their lesson is that successful numerical execution does not substitute for inspection of the resulting evidence.
+
+\subsection{Remaining limits and implications}
+Several limitations cannot be removed by the available robustness checks. First-stage factor uncertainty is not propagated, the rate factor can mix policy and central-bank information, and minutes may have a different economic scale from statements. The main event-level uncertainty assumes independence across events; year-block resampling has too few blocks to certify coverage. Matched weekdays are observational controls. Dynamic fixed-effects lag estimates face short-panel bias and unadjusted exploratory multiplicity. The conditional plateau diagnostic uses an estimated margin and is not a formally validated equivalence procedure.
+
+The quote source is a further boundary. Bid-only minute bars cannot distinguish all latency, staleness, aggregation and microstructure effects from gradual information incorporation. Selected cross-route probes may share underlying prices. Exact timestamps and fuller quote provenance are therefore substantive model inputs, not merely data-cleaning details.
+
+Finally, the later period has been observed. The corrected chronological model is fixed, but the original later-run inspection prevents a claim of untouched validation. Subsequent revisions need a new evaluation sample rather than repeated reuse of the same dates under a different label. This conclusion does not diminish the value of the completed audit; it specifies the evidence that a stronger claim would require.
+
+\chapterstart{Conclusion and future work}
+\subsection{Conclusion}
+The project establishes a reproducible framework for measuring event-time response paths and examining lagged price associations using free public data. Its strongest empirical contribution is the combination of an explicit source-clock correction, a complete-window audit and transparent response and uncertainty calculations. Accepted pooled SPX statement windows show an early negative association with the positively oriented rate factor, while additional adjustment over minutes 5--20 is imprecisely estimated around zero. Minutes releases exhibit a more delayed exploratory pattern.
+
+The central speed hypothesis is not supported at the level required for a reliable single empirical time-to-adjustment estimate. Coverage failures, absent plateaus, boundary fits and unstable bootstrap diagnostics prevent that interpretation. Chronological prediction checks also show no convincing improvement over a fixed development-mean baseline. These negative and inconclusive findings remain part of the completed research rather than being concealed by a visually smooth fitted curve.
+
+The resulting inference is conditional: response paths can be measured in accepted one-minute provider-quote windows, but their causal mechanism, sub-minute timing and generalisation remain unresolved. The framework makes those boundaries visible and provides notebooks, source records and interactive explanations through which the calculation can be inspected and reproduced.
+
+\subsection{Future work}
+The next empirical test should use genuinely new events after fixing the clock rule, sample requirements, factor construction and reporting thresholds. This would address the validation chronology without altering the historical record. Independently verified higher-resolution quotes, both bid and ask observations, and documented timestamp semantics would address measurement and execution limitations. A contemporaneously available surprise measure with recorded publication latency would address the information-set problem in a predictive application.
+
+A richer policy specification could separate target, path and central-bank information channels, while propagating factor-estimation uncertainty. Larger samples would support stronger dependence-aware inference and more credible assessment of plateau and adjustment parameters. Any additional shape family should be evaluated against known mechanisms and a new sample rather than selected to manufacture a speed from the current failures.
+
+Earnings announcements and calls provide a useful extension, but require a distinct event design. Earnings-release time, call opening, prepared remarks, guidance and questions can introduce separate information arrivals. Expectations, corporate actions and survivorship also need auditable free historical inputs. The FOMC factor and identification assumptions cannot simply be transferred to that setting. The general research principle remains the same: establish the information clock and observation process before interpreting a delayed price path as delayed learning.

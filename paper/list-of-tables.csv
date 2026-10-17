@@ -1,0 +1,13 @@
+number,title,source
+1,Scheduled event sample,paper/tables/table-01.csv
+2,Complete-window data coverage,paper/tables/table-02.csv
+3,Source-clock comparison probes,paper/tables/table-03.csv
+4,Development rate-factor construction,paper/tables/table-04.csv
+5,Simulation interval coverage,paper/tables/table-05.csv
+6,Simulation late-response rejection,paper/tables/table-06.csv
+7,Primary response and lag estimates,paper/tables/table-07.csv
+8,Matched-day realised variance comparison,paper/tables/table-08.csv
+9,Exploratory cross-series lag diagnostics,paper/tables/table-09.csv
+10,Post-audit chronological prediction losses,paper/tables/table-10.csv
+11,Conditional speed reporting decisions,paper/tables/table-11.csv
+12,Primary robustness and placebo checks,paper/tables/table-12.csv

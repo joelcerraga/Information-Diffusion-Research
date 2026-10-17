@@ -1,0 +1,123 @@
+{
+  "executed_utc": "2026-10-16T20:30:52.136741+00:00",
+  "python": "3.12.14",
+  "notebooks": [
+    {
+      "notebook": "notebooks/00_research_question_and_design.ipynb",
+      "code_cells": 4,
+      "total_cells": 9,
+      "duration_seconds": 1.118,
+      "status": "passed",
+      "sha256": "7383b83bc5ae2d341c439de12069afd29c6dcbb2e04121e93cb4a9c473f69b24",
+      "cell_seconds": [
+        1.106,
+        0.009,
+        0.001,
+        0.001
+      ]
+    },
+    {
+      "notebook": "notebooks/01_public_data_and_clock_audit.ipynb",
+      "code_cells": 4,
+      "total_cells": 8,
+      "duration_seconds": 0.053,
+      "status": "passed",
+      "sha256": "b589e1f21f1fe191c9b1c71d6b018a7cfb04f589b8eaf9a813567cf97eba7897",
+      "cell_seconds": [
+        0.0,
+        0.007,
+        0.026,
+        0.016
+      ]
+    },
+    {
+      "notebook": "notebooks/02_synthetic_validation.ipynb",
+      "code_cells": 5,
+      "total_cells": 8,
+      "duration_seconds": 0.075,
+      "status": "passed",
+      "sha256": "058ef60000f8336b805ddf072336461a664780bd18b3ce206105ff5c3f40c27f",
+      "cell_seconds": [
+        0.0,
+        0.042,
+        0.007,
+        0.023,
+        0.0
+      ]
+    },
+    {
+      "notebook": "notebooks/03_event_response_estimation.ipynb",
+      "code_cells": 5,
+      "total_cells": 8,
+      "duration_seconds": 0.187,
+      "status": "passed",
+      "sha256": "a8e984a4c78538df96a6d052fa1d10f9c9df80ad7b6be9c3a963fce419ea8cd2",
+      "cell_seconds": [
+        0.0,
+        0.006,
+        0.166,
+        0.008,
+        0.003
+      ]
+    },
+    {
+      "notebook": "notebooks/04_learning_lead_lag_analysis.ipynb",
+      "code_cells": 4,
+      "total_cells": 8,
+      "duration_seconds": 0.259,
+      "status": "passed",
+      "sha256": "c62af813a7af4ed018fa5bbc6d27a916562e9d042a77bc193b0eff70b81dfe03",
+      "cell_seconds": [
+        0.0,
+        0.086,
+        0.005,
+        0.162
+      ]
+    },
+    {
+      "notebook": "notebooks/05_chronological_transfer_and_information_sets.ipynb",
+      "code_cells": 5,
+      "total_cells": 8,
+      "duration_seconds": 0.06,
+      "status": "passed",
+      "sha256": "9c935970d15783e144c8eb71cda116cff5d0112ab411cb8cd2659d780a3f604a",
+      "cell_seconds": [
+        0.0,
+        0.001,
+        0.046,
+        0.008,
+        0.0
+      ]
+    },
+    {
+      "notebook": "notebooks/06_robustness_and_research_reflections.ipynb",
+      "code_cells": 4,
+      "total_cells": 8,
+      "duration_seconds": 0.015,
+      "status": "passed",
+      "sha256": "9a778bba28c9cdc35de7094e72d8bb2511ce3bd490ae8d687a7578ece73ad3e5",
+      "cell_seconds": [
+        0.0,
+        0.003,
+        0.011,
+        0.001
+      ]
+    },
+    {
+      "notebook": "notebooks/07_synthesis_and_publication_registers.ipynb",
+      "code_cells": 5,
+      "total_cells": 8,
+      "duration_seconds": 0.009,
+      "status": "passed",
+      "sha256": "941ebc9fc605fb871dca6ab0a785b3b6bac05e268765d43f948687f58ae10aa3",
+      "cell_seconds": [
+        0.0,
+        0.002,
+        0.006,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "passed": true
+}

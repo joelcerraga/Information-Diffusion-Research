@@ -1,0 +1,98 @@
+[
+  {
+    "number": 1,
+    "title": "Scheduled event sample",
+    "caption": "Table 1. Scheduled event sample.",
+    "source": "paper/tables/table-01.csv",
+    "notes": "Before quote exclusions. Internal holdout denotes the later post-audit period.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 2,
+    "title": "Complete-window data coverage",
+    "caption": "Table 2. Complete-window data coverage.",
+    "source": "paper/tables/table-02.csv",
+    "notes": "Every minute from −61 to +25 is required; no imputation.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 3,
+    "title": "Source-clock comparison probes",
+    "caption": "Table 3. Source-clock comparison probes.",
+    "source": "paper/tables/table-03.csv",
+    "notes": "Offsets are source-lookup shifts relative to the initial documented-clock interpretation. The applied correction is a calendar rule, not per-event selection.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 4,
+    "title": "Development rate-factor construction",
+    "caption": "Table 4. Development rate-factor construction.",
+    "source": "paper/tables/table-04.csv",
+    "notes": "Covariance PCA, 39 development statements; explained variance 0.9149345 and score SD 8.009662 bp.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 5,
+    "title": "Simulation interval coverage",
+    "caption": "Table 5. Simulation interval coverage.",
+    "source": "paper/tables/table-05.csv",
+    "notes": "200 replications per case/size; paired noise across cases. N=16/30 supplementary after coverage audit.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 6,
+    "title": "Simulation late-response rejection",
+    "caption": "Table 6. Simulation late-response rejection.",
+    "source": "paper/tables/table-06.csv",
+    "notes": "Rejection is power when the true late slope is nonzero and false-positive frequency when it is zero.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 7,
+    "title": "Primary response and lag estimates",
+    "caption": "Table 7. Primary response and lag estimates.",
+    "source": "paper/tables/table-07.csv",
+    "notes": "bp per development surprise SD; pointwise 95% HC3 intervals. Later period is post-audit transfer.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 8,
+    "title": "Matched-day realised variance comparison",
+    "caption": "Table 8. Matched-day realised variance comparison.",
+    "source": "paper/tables/table-08.csv",
+    "notes": "Median ratio of first-20-minute event variance to matched-day variance, with event-pair bootstrap intervals.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 9,
+    "title": "Exploratory cross-series lag diagnostics",
+    "caption": "Table 9. Exploratory cross-series lag diagnostics.",
+    "source": "paper/tables/table-09.csv",
+    "notes": "Own three lags and event fixed effects. Short-panel bias, approximate clustered inference and unadjusted multiplicity preclude a confirmatory interpretation.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 10,
+    "title": "Post-audit chronological prediction losses",
+    "caption": "Table 10. Post-audit chronological prediction losses.",
+    "source": "paper/tables/table-10.csv",
+    "notes": "Squared bp. Negative differences favour the model. Within-window targets are retrospective; +20-to-+25 availability is idealised.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 11,
+    "title": "Conditional speed reporting decisions",
+    "caption": "Table 11. Conditional speed reporting decisions.",
+    "source": "paper/tables/table-11.csv",
+    "notes": "A missing reportable t90 is an identification result; raw optimiser candidates are diagnostics only. Split the failed-rule text into a note panel in A4 typesetting.",
+    "caption_placement": "centred below"
+  },
+  {
+    "number": 12,
+    "title": "Primary robustness and placebo checks",
+    "caption": "Table 12. Primary robustness and placebo checks.",
+    "source": "paper/tables/table-12.csv",
+    "notes": "bp per development surprise SD. Year-block intervals are sensitivity checks with few year blocks, not assured nominal inference.",
+    "caption_placement": "centred below"
+  }
+]

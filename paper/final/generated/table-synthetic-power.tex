@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{25mm}L{34mm}C{23mm}C{23mm}C{23mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Case} & \textbf{Interpretation} & \textbf{$N=16$} & \textbf{$N=30$} & \textbf{$N=40$} & \textbf{$N=80$} \\ \midrule
+Immediate & False positive & 6.0\% & 6.5\% & 4.5\% & 8.5\% \\ \arrayrulecolor{tablerule}\hline
+Gradual & Power & 41.5\% & 77.0\% & 88.0\% & 98.5\% \\ \arrayrulecolor{tablerule}\hline
+Reversal & Power & 73.0\% & 95.0\% & 98.5\% & 100.0\% \\ \arrayrulecolor{tablerule}\hline
+Null & False positive & 6.0\% & 6.5\% & 4.5\% & 8.5\% \\ \arrayrulecolor{tablerule}\hline
+Continuing & Power & 99.5\% & 100.0\% & 100.0\% & 100.0\% \\ \arrayrulecolor{tablerule}\hline
+Stale & False positive & 6.0\% & 6.5\% & 4.5\% & 8.5\% \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Simulation late-response rejection]{Simulation late-response rejection}\label{tab:synthetic-power}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Two-sided nominal 5\% tests of the additional 5--20-minute slope. The 16/30-event conditions are supplementary. Each cell uses 200 independent replications; mechanisms use paired random draws.\par}
+\end{table}

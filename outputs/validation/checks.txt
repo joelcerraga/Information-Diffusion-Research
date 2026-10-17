@@ -1,0 +1,26 @@
+test_alignment_never_fills_missing_minutes (test_research.ResearchChecks.test_alignment_never_fills_missing_minutes) ... ok
+test_audited_clock_matches_independent_boundary_probes (test_research.ResearchChecks.test_audited_clock_matches_independent_boundary_probes) ... ok
+test_clean_diffusion_parameter_recovery (test_research.ResearchChecks.test_clean_diffusion_parameter_recovery) ... ok
+test_clock_correction_does_not_change_prices (test_research.ResearchChecks.test_clock_correction_does_not_change_prices) ... ok
+test_csv_decoder_ohlc_and_timezone (test_research.ResearchChecks.test_csv_decoder_ohlc_and_timezone) ... ok
+test_dukascopy_binary_order (test_research.ResearchChecks.test_dukascopy_binary_order) ... ok
+test_duplicate_quotes_are_invalid (test_research.ResearchChecks.test_duplicate_quotes_are_invalid) ... ok
+test_future_data_cannot_recentre_frozen_pca (test_research.ResearchChecks.test_future_data_cannot_recentre_frozen_pca) ... ok
+test_hc3_matches_leave_one_out_influence (test_research.ResearchChecks.test_hc3_matches_leave_one_out_influence) ... ok
+test_horizon_one_is_first_completed_minute (test_research.ResearchChecks.test_horizon_one_is_first_completed_minute) ... ok
+test_nonfinite_is_rejected (test_research.ResearchChecks.test_nonfinite_is_rejected) ... ok
+test_ols_matches_independent_normal_equations (test_research.ResearchChecks.test_ols_matches_independent_normal_equations) ... ok
+test_original_protocol_and_amendment_hashes (test_research.ResearchChecks.test_original_protocol_and_amendment_hashes) ... ok
+test_paired_prediction_error_sign (test_research.ResearchChecks.test_paired_prediction_error_sign) ... ok
+test_pca_unit_training_scale (test_research.ResearchChecks.test_pca_unit_training_scale) ... ok
+test_rank_failure_is_explicit (test_research.ResearchChecks.test_rank_failure_is_explicit) ... ok
+test_reversal_is_not_monotone_diffusion (test_research.ResearchChecks.test_reversal_is_not_monotone_diffusion) ... ok
+test_t90_formula_reaches_threshold (test_research.ResearchChecks.test_t90_formula_reaches_threshold) ... ok
+test_timestamp_dst_and_fixed_est (test_research.ResearchChecks.test_timestamp_dst_and_fixed_est) ... ok
+test_wild_bootstrap_reproducible_and_shared_path (test_research.ResearchChecks.test_wild_bootstrap_reproducible_and_shared_path) ... ok
+test_zero_response_has_no_speed (test_research.ResearchChecks.test_zero_response_has_no_speed) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.136s
+
+OK

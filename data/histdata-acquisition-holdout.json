@@ -1,0 +1,66 @@
+[
+  {
+    "symbol": "SPXUSD",
+    "year": 2025,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2025",
+    "path": "data/raw/histdata/SPXUSD/2025.zip",
+    "status": "cached",
+    "bytes": 4477585,
+    "sha256": "5a3729fd46686a0d88d43b7f64f7915bd5df43c940a8fa72ad63e348b64b2ae7"
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2024,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2024",
+    "path": "data/raw/histdata/SPXUSD/2024.zip",
+    "status": "downloaded",
+    "bytes": 4570331,
+    "sha256": "759e1911963f4b3275cc30a35f8937435afb03ee1eaac2f6a28aa0c9c7068da7",
+    "retrieved_utc": "2026-10-16T19:44:14.441972+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2024,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2024",
+    "path": "data/raw/histdata/NSXUSD/2024.zip",
+    "status": "downloaded",
+    "bytes": 5195055,
+    "sha256": "70429c487544991e42d34ce505be00b2d02b74a6633b23ca07eba0f80bf24566",
+    "retrieved_utc": "2026-10-16T19:44:14.515454+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2025,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2025",
+    "path": "data/raw/histdata/NSXUSD/2025.zip",
+    "status": "downloaded",
+    "bytes": 5327460,
+    "sha256": "865006539b7a3abe6ce3742e17604e5bf003b89583b349228570d343f78ae16f",
+    "retrieved_utc": "2026-10-16T19:44:25.675114+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2024,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2024",
+    "path": "data/raw/histdata/EURUSD/2024.zip",
+    "status": "downloaded",
+    "bytes": 3229550,
+    "sha256": "58f074ba6b835eb2fbeaeb6678502a23b26768eefdfa509eb75ff5296bb2904d",
+    "retrieved_utc": "2026-10-16T19:44:25.787477+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2025,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2025",
+    "path": "data/raw/histdata/EURUSD/2025.zip",
+    "status": "downloaded",
+    "bytes": 3441226,
+    "sha256": "b7c23d20b9577588a8b13508d58fedbe487e569b7b8b5dd368bd1d2b61115de0",
+    "retrieved_utc": "2026-10-16T19:44:36.968973+00:00",
+    "previous_errors": []
+  }
+]

@@ -1,0 +1,43 @@
+symbol,meaning,units
+e,Event index,event
+a,Asset/quote-series index,series
+t,Minute-bar start offset from release,minutes
+h,Completed response horizon,minutes
+P,Provider bid close for a minute bar,quote-price units
+r,One-minute log return,bp
+Y(h),Cumulative event-time log return,bp
+x,Five input rate changes,bp
+x̄dev,Development mean of rate inputs,bp
+w,First principal-component loading vector,unitless
+sdev,Development standard deviation of component scores,bp
+z,Frozen standardised rate-surprise score,development SD
+α,Horizon-specific intercept,bp
+β,Horizon-specific response slope,bp per surprise SD
+ε,Event-level regression error,bp
+b,Incremental response slope,bp per surprise SD
+L5:20,Additional response from minute 5 to 20,bp per surprise SD
+A,Signed terminal amplitude in the conditional curve,bp per surprise SD
+f,Fraction of model amplitude attained by minute one,unitless
+k,Conditional adjustment rate,per minute
+q,Target adjustment fraction,unitless
+tq,Model time to target fraction,minutes
+τ1/2,Half-life of the remaining adjustment,minutes
+X,Regression design matrix,mixed regressor units
+xᴿ,Single row of the regression design,mixed regressor units
+ℓ,OLS leverage,unitless
+V̂,Estimated coefficient covariance matrix,coefficient units squared
+v,Rademacher event resampling weight,−1 or +1
+c0.95,Bootstrap maximum-t critical value,unitless
+B,Simultaneous confidence band,bp per surprise SD
+RV,Sum of squared minute returns,bp²
+ΔMSE,Model loss minus baseline loss,bp²
+N,Number of event observations,count
+μe,Event fixed effect in the lead–lag model,bp
+φj,Own-return lag coefficient,unitless
+γj,Cross-series lag coefficient,unitless
+j,Lag index,minutes
+u,Lead–lag regression error,bp
+M,Number of simulation replications,count
+p̂,Estimated coverage or rejection probability,unitless
+T,Calendar timestamp,datetime
+dEurope,European seasonal clock displacement,hours

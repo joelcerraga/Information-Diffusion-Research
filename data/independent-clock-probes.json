@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.dukascopy.com/datafeed/SPYUSUSD/2022/02/16/BID_candles_min_1.bi5",
+    "path": "data/raw/dukascopy/SPYUSUSD/2022/02/16/BID_candles_min_1.bi5",
+    "status": "downloaded",
+    "sha256": "8635619f2ae5393868fcf76c4be7c22319129c8aa166c567eaac9d9833ea73d9",
+    "bytes": 5654,
+    "retrieved_utc": "2026-10-16T19:53:57.621913+00:00",
+    "previous_errors": []
+  },
+  {
+    "url": "https://www.dukascopy.com/datafeed/QQQUSUSD/2022/08/21/BID_candles_min_1.bi5",
+    "path": "data/raw/dukascopy/QQQUSUSD/2022/08/21/BID_candles_min_1.bi5",
+    "status": "downloaded",
+    "sha256": "1fab3707159b41477b796f7cf14e8fa0dddfcf7a2b61fa11e44f3938dbb2048a",
+    "bytes": 5557,
+    "retrieved_utc": "2026-10-16T19:53:58.272882+00:00",
+    "previous_errors": []
+  },
+  {
+    "url": "https://www.dukascopy.com/datafeed/EURUSD/2022/02/16/BID_candles_min_1.bi5",
+    "path": "data/raw/dukascopy/EURUSD/2022/02/16/BID_candles_min_1.bi5",
+    "status": "downloaded",
+    "sha256": "05a6e1108608774428af14dd67a7fc0731439cd16295f660864dee186a75695f",
+    "bytes": 12505,
+    "retrieved_utc": "2026-10-16T19:54:10.329491+00:00",
+    "previous_errors": []
+  },
+  {
+    "url": "https://www.dukascopy.com/datafeed/EURUSD/2022/08/21/BID_candles_min_1.bi5",
+    "path": "data/raw/dukascopy/EURUSD/2022/08/21/BID_candles_min_1.bi5",
+    "status": "downloaded",
+    "sha256": "55580b99b4948ce22020e10146940ac5262680dec9b1263e6a3cee4e9ca887fa",
+    "bytes": 12565,
+    "retrieved_utc": "2026-10-16T19:54:10.553443+00:00",
+    "previous_errors": []
+  }
+]

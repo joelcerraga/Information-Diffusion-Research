@@ -1,0 +1,170 @@
+[
+  {
+    "phase": "pooled",
+    "event_type": "Statements",
+    "asset": "SPX",
+    "min": -2.82456483879,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "pooled",
+    "event_type": "Statements",
+    "asset": "NSX",
+    "min": -2.82456483879,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "pooled",
+    "event_type": "Statements",
+    "asset": "EURUSD",
+    "min": -2.82456483879,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "pooled",
+    "event_type": "Minutes",
+    "asset": "SPX",
+    "min": -0.915451029104,
+    "max": 1.30687403658
+  },
+  {
+    "phase": "pooled",
+    "event_type": "Minutes",
+    "asset": "NSX",
+    "min": -0.915451029104,
+    "max": 1.30687403658
+  },
+  {
+    "phase": "pooled",
+    "event_type": "Minutes",
+    "asset": "EURUSD",
+    "min": -0.915451029104,
+    "max": 1.30687403658
+  },
+  {
+    "phase": "development",
+    "event_type": "Statements",
+    "asset": "SPX",
+    "min": -1.97176428571,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "development",
+    "event_type": "Statements",
+    "asset": "NSX",
+    "min": -2.36104027696,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "development",
+    "event_type": "Statements",
+    "asset": "EURUSD",
+    "min": -2.36104027696,
+    "max": 2.78122924125
+  },
+  {
+    "phase": "development",
+    "event_type": "Minutes",
+    "asset": "SPX",
+    "min": -0.915451029104,
+    "max": 1.02136232195
+  },
+  {
+    "phase": "development",
+    "event_type": "Minutes",
+    "asset": "NSX",
+    "min": -0.915451029104,
+    "max": 1.02136232195
+  },
+  {
+    "phase": "development",
+    "event_type": "Minutes",
+    "asset": "EURUSD",
+    "min": -0.915451029104,
+    "max": 1.02136232195
+  },
+  {
+    "phase": "validation",
+    "event_type": "Statements",
+    "asset": "SPX",
+    "min": -2.82456483879,
+    "max": 0.285784603348
+  },
+  {
+    "phase": "validation",
+    "event_type": "Statements",
+    "asset": "NSX",
+    "min": -2.82456483879,
+    "max": 0.285784603348
+  },
+  {
+    "phase": "validation",
+    "event_type": "Statements",
+    "asset": "EURUSD",
+    "min": -2.82456483879,
+    "max": 0.285784603348
+  },
+  {
+    "phase": "validation",
+    "event_type": "Minutes",
+    "asset": "SPX",
+    "min": -0.304718979192,
+    "max": 0.256972555056
+  },
+  {
+    "phase": "validation",
+    "event_type": "Minutes",
+    "asset": "NSX",
+    "min": -0.304718979192,
+    "max": 0.256972555056
+  },
+  {
+    "phase": "validation",
+    "event_type": "Minutes",
+    "asset": "EURUSD",
+    "min": -0.304718979192,
+    "max": 0.256972555056
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Statements",
+    "asset": "SPX",
+    "min": -2.71888985786,
+    "max": 2.28651536833
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Statements",
+    "asset": "NSX",
+    "min": -2.71888985786,
+    "max": 2.28651536833
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Statements",
+    "asset": "EURUSD",
+    "min": -2.71888985786,
+    "max": 2.28651536833
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Minutes",
+    "asset": "SPX",
+    "min": -0.479418348292,
+    "max": 1.30687403658
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Minutes",
+    "asset": "NSX",
+    "min": -0.479418348292,
+    "max": 1.30687403658
+  },
+  {
+    "phase": "holdout",
+    "event_type": "Minutes",
+    "asset": "EURUSD",
+    "min": -0.479418348292,
+    "max": 1.30687403658
+  }
+]

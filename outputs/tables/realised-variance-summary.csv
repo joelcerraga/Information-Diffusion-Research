@@ -1,0 +1,7 @@
+event_type,asset,n,median_rv_ratio,ci_low,ci_high,method
+Minutes,EURUSD,60,6.86035019753,4.63688421618,8.88666661716,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls
+Minutes,NSX,60,2.90680676449,1.55448540287,5.4712459845,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls
+Minutes,SPX,51,2.94576126755,1.89586490278,8.77316248066,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls
+Statements,EURUSD,58,52.5315902605,29.3458002131,71.2827946591,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls
+Statements,NSX,58,9.7997897639,6.16343452735,14.7780494195,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls
+Statements,SPX,48,10.5811242638,5.11318496075,19.809080797,event-pair percentile bootstrap of median log RV ratio; matched dates are observational controls

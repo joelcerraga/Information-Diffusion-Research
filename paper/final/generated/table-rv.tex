@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{32mm}L{25mm}C{20mm}C{30mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Type} & \textbf{Series} & \textbf{Pairs} & \textbf{Median ratio} & \textbf{95\% interval} \\ \midrule
+Statements & SPX & 48 & $10.58$ & $[5.11,\,19.81]$ \\ \arrayrulecolor{tablerule}\hline
+Statements & NSX & 58 & $9.80$ & $[6.16,\,14.78]$ \\ \arrayrulecolor{tablerule}\hline
+Statements & EURUSD & 58 & $52.53$ & $[29.35,\,71.28]$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & SPX & 51 & $2.95$ & $[1.90,\,8.77]$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & NSX & 60 & $2.91$ & $[1.55,\,5.47]$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & EURUSD & 60 & $6.86$ & $[4.64,\,8.89]$ \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Matched-day realised-variance comparison]{Matched-day realised-variance comparison}\label{tab:rv}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont First-20-minute event variance / selected matched-day variance. Intervals use 1,999 event-pair bootstrap draws. Ratios measure activity, not information completeness.\par}
+\end{table}

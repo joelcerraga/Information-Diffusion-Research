@@ -1,0 +1,9 @@
+{
+  "url": "https://www.frbsf.org/wp-content/uploads/USMPD.xlsx",
+  "path": "data/raw/USMPD.xlsx",
+  "status": "downloaded",
+  "sha256": "f02bfcbf80cf597548d4fccb5a80b30cb1f4373a7d50e26fd1def097d43df1aa",
+  "bytes": 198422,
+  "retrieved_utc": "2026-10-16T19:28:14.386483+00:00",
+  "previous_errors": []
+}

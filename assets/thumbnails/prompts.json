@@ -1,0 +1,14 @@
+{
+  "method": "Built-in image generation",
+  "purpose": "Conceptual website and social-preview covers; not research figures",
+  "assets": [
+    {
+      "file": "information-diffusion-research.png",
+      "prompt": "Use case: ads-marketing. Create a polished website/social thumbnail for Joel Cerraga's Information Diffusion in Financial Markets research. This is a companion to an established research portfolio: pure white background, deep navy typography, restrained teal/cyan 3D geometry and a single thin warm-gold accent. Wide 2:1 composition with generous safe margins. Left half: beautifully typeset bold modern sans-serif exact text \"INFORMATION\" on one line and \"DIFFUSION\" on the next, then smaller \"IN FINANCIAL MARKETS\". Small upper label \"QUANTITATIVE RESEARCH\". Beneath the title exact subtitle \"News. Prices. Evidence.\" Bottom-left author credit \"Joel Cerraga\". Right half: elegant abstract three-dimensional teal wavefront becoming a smooth response plane across a faint perspective grid, one thin gold path through it suggesting the arrival of information. Airy crisp editorial financial research identity. Decorative geometry only, no measured axes, no numbers, no profit claims, no logos, no dark background. All lettering fully in frame, readable at thumbnail size."
+    },
+    {
+      "file": "interactive-graphs.png",
+      "prompt": "Use case: ads-marketing. Create a polished website/social thumbnail for the Interactive Graphs page of Joel Cerraga's Information Diffusion research. Established visual family: pure white background, deep navy and teal bold sans-serif typography, airy scientific 3D geometry, one subtle gold accent. Wide 2:1 composition with generous safe margins. Left half exact text: small upper label \"INFORMATION DIFFUSION\", large stacked title \"INTERACTIVE\" and \"GRAPHS\", then smaller \"Explore how markets respond\". Bottom-left author credit \"Joel Cerraga\". Right half: several elegant translucent teal response ribbons in perspective rising and levelling at different rates above a faint grid; one thin gold ribbon highlights a selected response. Decorative conceptual artwork only, not measured data. No numeric labels, no stock prices, no performance claims, no logos, no dark background. Keep the entire title inside generous margins and legible at small size."
+    }
+  ]
+}

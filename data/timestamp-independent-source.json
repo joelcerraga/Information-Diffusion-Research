@@ -1,0 +1,9 @@
+{
+  "url": "https://www.dukascopy.com/datafeed/SPYUSUSD/2022/08/21/BID_candles_min_1.bi5",
+  "path": "data/raw/dukascopy/SPYUSUSD/2022/08/21/BID_candles_min_1.bi5",
+  "status": "downloaded",
+  "sha256": "e40fa2d4d833e2b12a3f5abf9e2ece34929518e96bc8357bd785a38338c3aec0",
+  "bytes": 5851,
+  "retrieved_utc": "2026-10-16T19:51:27.767505+00:00",
+  "previous_errors": []
+}

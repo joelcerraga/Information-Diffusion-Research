@@ -1,0 +1,22 @@
+{
+  "released_utc": "2026-10-16T19:44:02.888541+00:00",
+  "notice": "Internal chronological freeze in retrospective historical research; no external preregistration or prospective blinding claimed. The source USMPD workbook includes later dates. A 2025 ZIP was downloaded for availability but not parsed before this freeze.",
+  "files": {
+    "diffusion/__init__.py": "0b83a9da467bd132cf3cebbb27e4e6f923b2afbcd19c2cc6beb3fde299979fd5",
+    "diffusion/common.py": "f2754f5f6cfcb16afe78458f127d84ad5416afae6e5adc7c03b6930dd3f35548",
+    "diffusion/data.py": "dcf0c22690e96829bfe2ff09c76e0048fb5b236bbaab6f15327091069edeacce",
+    "diffusion/empirical.py": "fa72fc0f06b369a70194182e02bace8f9497055c8bfcddbced0a97c4dc065d98",
+    "diffusion/histdata.py": "1e56aa46e732782e45d23f71ad1da6aa5f2f57c28f0e0956b73becc9058d564e",
+    "diffusion/statistics.py": "05db2d5d9bda397424996058708c64d29ff16ba5654512e836e07d9fa48a5921",
+    "diffusion/synthetic.py": "1b2b7aff7a6d521ddb45296134103c7f53117d946e1593be8142eea78fb17f21",
+    "outputs/models/development-predictions.json": "8bb369d136032bcb3b4ce84906d12633b5be07bce5d3d703277ec7bd32b59597",
+    "outputs/models/surprise-pca.json": "efce34261547b2084bd162d097cd24b8f7266867f9dfb0747d69e6ced06a2c97",
+    "protocol/amendment-01.json": "4e772ce45c0796450461e967bc6e28cbd645ccdd9e2589f179ee7e82ccfb67ab",
+    "protocol/design-v1.json": "41966bb0a2856fa9f8c2a410f222a8f4677d93526f3619292c1b87de3e58692c",
+    "scripts/acquire.py": "835c6cc1d8ebed33e87d36483bb51b5dc336dbb875d13694191fe1f627b40aea",
+    "scripts/acquire_histdata.py": "12932a9b0bcf479b646cc9a69a719e3e96e14da0f90ca7f9e56938b2759668fd",
+    "scripts/run_checks.py": "f24ae411b084467bc3f55232e618154aa0ed8b209b138c74641cc0e14218d9a5",
+    "scripts/run_empirical.py": "b9ce59aab2aa4ab15e9d0ad8d658dc2119a5ee16dc2dd71d445a830142aa78fc",
+    "scripts/run_synthetic.py": "6680d44f9618779d5c6f1fd78de0bc299032b4a01168701c348eb82084445aeb"
+  }
+}

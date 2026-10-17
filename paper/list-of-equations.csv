@@ -1,0 +1,20 @@
+number,equation
+1,Minute log return
+2,Cumulative event-time response
+3,Rate changes in basis points
+4,Frozen rate-surprise factor
+5,Unrestricted horizon regression
+6,Incremental response coefficient
+7,Predeclared lagged-response estimand
+8,Conditional adjustment curve
+9,Time to a target adjustment fraction
+10,Half-life of the remaining adjustment
+11,HC3 covariance estimator
+12,Event-path wild-bootstrap draw
+13,Simultaneous response band
+14,Realised variance in an event window
+15,Paired prediction-loss difference
+16,Predictive lead–lag association
+17,Monte Carlo standard error
+18,Plateau reporting diagnostic
+19,Audited source-clock mapping

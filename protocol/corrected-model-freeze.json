@@ -1,0 +1,22 @@
+{
+  "released_utc": "2026-10-16T20:01:04.966664+00:00",
+  "notice": "Post-audit chronological transfer. Original held-out outcomes were examined before discovering the clock problem. Corrected development model frozen before recalculating corrected held-out outcomes; no untouched holdout, prospective blinding or external preregistration claimed.",
+  "files": {
+    "diffusion/__init__.py": "0b83a9da467bd132cf3cebbb27e4e6f923b2afbcd19c2cc6beb3fde299979fd5",
+    "diffusion/common.py": "6d7f4f2a8d1f39fe7e8f0c9bcc4edd26156e6815a0677480f73ea5fe18d2aafd",
+    "diffusion/data.py": "dcf0c22690e96829bfe2ff09c76e0048fb5b236bbaab6f15327091069edeacce",
+    "diffusion/empirical.py": "89e265fbdbf95758a9f30e98d7b964a22139dafafc641ce60de37c67905b773c",
+    "diffusion/histdata.py": "9808123c708420d8e1c2801dd729e2bc1450b7f9125be3867c08181736d5626e",
+    "diffusion/statistics.py": "05db2d5d9bda397424996058708c64d29ff16ba5654512e836e07d9fa48a5921",
+    "diffusion/synthetic.py": "1b2b7aff7a6d521ddb45296134103c7f53117d946e1593be8142eea78fb17f21",
+    "outputs/models/development-predictions.json": "7741de60321b8bd140a32911f7729e51ff69e8a5e206fbe8605004516723abf2",
+    "outputs/models/surprise-pca.json": "efce34261547b2084bd162d097cd24b8f7266867f9dfb0747d69e6ced06a2c97",
+    "protocol/amendment-01.json": "4e772ce45c0796450461e967bc6e28cbd645ccdd9e2589f179ee7e82ccfb67ab",
+    "protocol/amendment-02.json": "6acea093f752779b9138f0d5f8745a24b043d50105acd2796a58751e655748b4",
+    "protocol/design-v1.json": "41966bb0a2856fa9f8c2a410f222a8f4677d93526f3619292c1b87de3e58692c",
+    "scripts/acquire.py": "835c6cc1d8ebed33e87d36483bb51b5dc336dbb875d13694191fe1f627b40aea",
+    "scripts/acquire_histdata.py": "12932a9b0bcf479b646cc9a69a719e3e96e14da0f90ca7f9e56938b2759668fd",
+    "scripts/run_empirical.py": "b9ce59aab2aa4ab15e9d0ad8d658dc2119a5ee16dc2dd71d445a830142aa78fc",
+    "scripts/run_synthetic.py": "6680d44f9618779d5c6f1fd78de0bc299032b4a01168701c348eb82084445aeb"
+  }
+}

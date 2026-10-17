@@ -1,0 +1,16 @@
+{
+  "id": "A01",
+  "reason": "The daily Dukascopy bid/ask route was technically reachable but too slow and intermittent for a reproducible large event panel. A documented free annual HistData download succeeded. Change made before fitting or examining study-period intraday returns.",
+  "original_protocol_preserved": "design-v1.json",
+  "availability_probe": "The 2025 SPXUSD ZIP was downloaded as an availability test; its price records were not opened or used before the model freeze. This is a retrospective historical split, not a prospective or externally preregistered experiment.",
+  "assets": {"SPX": "SPXUSD", "NSX": "NSXUSD", "EURUSD": "EURUSD"},
+  "primary_asset": "SPX",
+  "source": "HistData Generic ASCII M1 free web downloads",
+  "price_measure": "Provider bid close; SPXUSD and NSXUSD are provider index-linked quotes, not consolidated cash-index trades, ETF prices or an independently verified exchange feed. EURUSD is a provider FX quote.",
+  "timestamp": "Provider timestamp is fixed UTC-05:00 throughout the year, NOT America/New_York. Convert to UTC first; align to USMPD Eastern local event time with daylight saving.",
+  "bar_label": "Minute timestamp treated as bar start. Horizon h uses close of bar h-1 and the pre-event close of bar -1. Open-price and plus/minus one-minute origin checks assess timestamp sensitivity.",
+  "missingness": "Require all minute bars at offsets -61 to +25 with positive internally valid OHLC; no forward fill. Retain missingness audit for every planned event and control.",
+  "changes_to_robustness": "Bid/ask and spread sensitivity are unavailable from HistData M1. Replace with open-price, flat-bar exclusion and one-minute origin sensitivity. This limitation cannot be repaired with bid-only data and remains explicit. Retain limited Dukascopy cache as a provenance/comparison experiment only.",
+  "unchanged": "Event register, chronological splits, surprise definition, horizons, matched-control candidates, inference, reporting gates, and synthetic design.",
+  "public_cost": "No API key, subscription, trading account, paid FTP or paid S3 service is used. Free availability is not a guarantee of redistribution rights. Raw-provider files are excluded from any future public GitHub release until rights are checked."
+}

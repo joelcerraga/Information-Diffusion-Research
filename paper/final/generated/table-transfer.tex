@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.5}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{28mm}C{25mm}C{29mm}C{25mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Target} & \textbf{Model MSE} & \textbf{Baseline MSE} & \textbf{Difference} & \textbf{95\% paired interval} \\ \midrule
+0--20 minutes & $949.17$ & $957.96$ & $-8.80$ & $[-1,075.41,\,965.85]$ \\ \arrayrulecolor{tablerule}\hline
+5--20 minutes & $531.37$ & $502.77$ & $28.59$ & $[-81.88,\,166.89]$ \\ \arrayrulecolor{tablerule}\hline
+20--25 minutes & $126.45$ & $62.65$ & $63.79$ & $[-18.46,\,177.20]$ \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Post-audit chronological prediction losses]{Post-audit chronological prediction losses}\label{tab:transfer}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont SPX statements, $N=16$; all losses and differences are bp$^2$. Negative differences favour the model. The first two targets are retrospective; +20-minute availability for the final target is idealised.\par}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.6}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{30mm}L{29mm}C{32mm}C{32mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Series pair} & \textbf{Date} & \textbf{Original lookup} & \textbf{+60-min lookup} & \textbf{Paired counts} \\ \midrule
+SPX/SPY & 2022-09-21 & $-0.0037$ & $0.9995$ & 120/120 \\ \arrayrulecolor{tablerule}\hline
+SPX/SPY & 2022-03-16 & $0.9964$ & $0.0242$ & 120/104 \\ \arrayrulecolor{tablerule}\hline
+NSX/QQQ & 2022-09-21 & $0.0047$ & $0.9997$ & 120/120 \\ \arrayrulecolor{tablerule}\hline
+EURUSD/EURUSD & 2022-09-21 & $0.0258$ & $1.0000$ & 120/120 \\ \arrayrulecolor{tablerule}\hline
+EURUSD/EURUSD & 2022-03-16 & $1.0000$ & $0.0266$ & 120/120 \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Source-clock comparison probes]{Source-clock comparison probes}\label{tab:clock}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Entries are minute-return correlations. The +60-minute column shifts the source lookup relative to the initial fixed-EST interpretation. Paired counts are original / shifted.\par}
+\end{table}

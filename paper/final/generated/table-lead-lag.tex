@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.5}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{25mm}L{40mm}C{17mm}C{23mm}C{23mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Type} & \textbf{Direction} & \textbf{Events} & \textbf{Wald $F$} & \textbf{$p$-value} & \textbf{Incremental $R^2$} \\ \midrule
+Statements & SPX$\to$NSX & 49 & $1.613$ & $0.1986$ & $0.0068$ \\ \arrayrulecolor{tablerule}\hline
+Statements & NSX$\to$SPX & 49 & $2.498$ & $0.0708$ & $0.0097$ \\ \arrayrulecolor{tablerule}\hline
+Statements & SPX$\to$EURUSD & 49 & $0.887$ & $0.4545$ & $0.0074$ \\ \arrayrulecolor{tablerule}\hline
+Statements & EURUSD$\to$SPX & 49 & $0.774$ & $0.5142$ & $0.0051$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & SPX$\to$NSX & 51 & $2.134$ & $0.1076$ & $0.0084$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & NSX$\to$SPX & 51 & $3.267$ & $0.0288$ & $0.0130$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & SPX$\to$EURUSD & 50 & $2.818$ & $0.0486$ & $0.0106$ \\ \arrayrulecolor{tablerule}\hline
+Minutes & EURUSD$\to$SPX & 50 & $4.710$ & $0.0057$ & $0.0822$ \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Exploratory cross-series lag diagnostics]{Exploratory cross-series lag diagnostics}\label{tab:lead-lag}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Own three lags, cross three lags and event fixed effects; 17 minute rows per event. CR1 inference is approximate, p-values are unadjusted, and clustered uncertainty does not remove short-panel bias.\par}
+\end{table}

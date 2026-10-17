@@ -1,0 +1,13 @@
+number,title,png,svg
+1,Synthetic response paths,outputs/figures/figure-01.png,outputs/figures/figure-01.svg
+2,Coverage audit,outputs/figures/figure-02.png,outputs/figures/figure-02.svg
+3,Primary response across samples,outputs/figures/figure-03.png,outputs/figures/figure-03.svg
+4,Assets and communication types,outputs/figures/figure-04.png,outputs/figures/figure-04.svg
+5,Lagged response estimates,outputs/figures/figure-05.png,outputs/figures/figure-05.svg
+6,External window cross-check,outputs/figures/figure-06.png,outputs/figures/figure-06.svg
+7,Event activity and matched days,outputs/figures/figure-07.png,outputs/figures/figure-07.svg
+8,Chronological prediction check,outputs/figures/figure-08.png,outputs/figures/figure-08.svg
+9,Lead–lag diagnostics,outputs/figures/figure-09.png,outputs/figures/figure-09.svg
+10,Influence of individual events,outputs/figures/figure-10.png,outputs/figures/figure-10.svg
+11,Sequential information releases,outputs/figures/figure-11.png,outputs/figures/figure-11.svg
+12,Clock-audit evidence,outputs/figures/figure-12.png,outputs/figures/figure-12.svg

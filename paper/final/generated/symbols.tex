@@ -1,0 +1,61 @@
+{\fontsize{9.5}{10.5}\selectfont\renewcommand{\arraystretch}{1.0}\setlength{\tabcolsep}{5pt}
+\begin{longtable}{@{}L{26mm}L{92mm}L{38.5mm}@{}}
+\toprule\rowcolor{tablehead}\textbf{Symbol} & \textbf{Meaning} & \textbf{Units} \\ \midrule
+\endfirsthead
+\toprule\rowcolor{tablehead}\textbf{Symbol} & \textbf{Meaning} & \textbf{Units} \\ \midrule
+\endhead
+\multicolumn{3}{r}{\fontsize{9}{11}\selectfont\itshape Continued on the next page}\\\endfoot
+\endlastfoot
+$e$ & Event index & event \\ \arrayrulecolor{tablerule}\hline
+$a$ & Asset/quote-series index & series \\ \arrayrulecolor{tablerule}\hline
+$t$ & Minute-bar start offset from release & minutes \\ \arrayrulecolor{tablerule}\hline
+$h$ & Completed response horizon & minutes \\ \arrayrulecolor{tablerule}\hline
+$P_{e,a,t}$ & Provider bid close for a minute bar & quote-price units \\ \arrayrulecolor{tablerule}\hline
+$r_{e,a,t}$ & One-minute log return & bp \\ \arrayrulecolor{tablerule}\hline
+$Y_{e,a}(h)$ & Cumulative event-time log return & bp \\ \arrayrulecolor{tablerule}\hline
+$\mathbf{x}_e$ & Five input rate changes & bp \\ \arrayrulecolor{tablerule}\hline
+$\bar{\mathbf{x}}_{\rm dev}$ & Development mean of rate inputs & bp \\ \arrayrulecolor{tablerule}\hline
+$\mathbf{w}$ & First principal-component loading vector & unitless \\ \arrayrulecolor{tablerule}\hline
+$s_{\rm dev}$ & Development standard deviation of component scores & bp \\ \arrayrulecolor{tablerule}\hline
+$z_e$ & Frozen standardised rate-surprise score & development SD \\ \arrayrulecolor{tablerule}\hline
+$\alpha_{a,h}$ & Horizon-specific intercept & bp \\ \arrayrulecolor{tablerule}\hline
+$\beta_{a,h}$ & Horizon-specific response slope & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$\varepsilon_{e,a,h}$ & Event-level regression error & bp \\ \arrayrulecolor{tablerule}\hline
+$b_{a,h}$ & Incremental response slope & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$L_{a,5:20}$ & Additional response from minute 5 to 20 & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$A$ & Signed terminal amplitude in the conditional curve & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$f$ & Fraction of model amplitude attained by minute one & unitless \\ \arrayrulecolor{tablerule}\hline
+$k$ & Conditional adjustment rate & per minute \\ \arrayrulecolor{tablerule}\hline
+$q$ & Target adjustment fraction & unitless \\ \arrayrulecolor{tablerule}\hline
+$t_q$ & Model time to target fraction & minutes \\ \arrayrulecolor{tablerule}\hline
+$\tau_{1/2}$ & Half-life of the remaining adjustment & minutes \\ \arrayrulecolor{tablerule}\hline
+$X$ & Regression design matrix & mixed regressor units \\ \arrayrulecolor{tablerule}\hline
+$\mathbf{x}^{R}_e$ & Column-vector representation of a design row & mixed regressor units \\ \arrayrulecolor{tablerule}\hline
+$\ell_e$ & OLS leverage & unitless \\ \arrayrulecolor{tablerule}\hline
+$\widehat V_{\rm HC3}$ & Estimated coefficient covariance matrix & coefficient units squared \\ \arrayrulecolor{tablerule}\hline
+$v_e$ & Rademacher event resampling weight & -1 or +1 \\ \arrayrulecolor{tablerule}\hline
+$c_{0.95}$ & Bootstrap maximum-t critical value & unitless \\ \arrayrulecolor{tablerule}\hline
+$\mathcal B_h$ & Simultaneous confidence band & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$RV_{e,a}$ & Sum of squared minute returns & bp² \\ \arrayrulecolor{tablerule}\hline
+$\Delta_{\rm MSE}$ & Model loss minus baseline loss & bp² \\ \arrayrulecolor{tablerule}\hline
+$N$ & Number of event observations & count \\ \arrayrulecolor{tablerule}\hline
+$\mu_e$ & Event fixed effect in the lead–lag model & bp \\ \arrayrulecolor{tablerule}\hline
+$\phi_j$ & Own-return lag coefficient & unitless \\ \arrayrulecolor{tablerule}\hline
+$\gamma_j$ & Cross-series lag coefficient & unitless \\ \arrayrulecolor{tablerule}\hline
+$j$ & Lag index & lag number \\ \arrayrulecolor{tablerule}\hline
+$u_{e,t}$ & Lead–lag regression error & bp \\ \arrayrulecolor{tablerule}\hline
+$M$ & Number of simulation replications & count \\ \arrayrulecolor{tablerule}\hline
+$\hat p$ & Estimated coverage or rejection probability & unitless \\ \arrayrulecolor{tablerule}\hline
+$T$ & Calendar timestamp & datetime \\ \arrayrulecolor{tablerule}\hline
+$d_{\rm Europe}$ & European seasonal clock displacement & hours \\ \arrayrulecolor{tablerule}\hline
+$p$ & Number of regression coefficients & count \\ \arrayrulecolor{tablerule}\hline
+$\ell$ & Cross-series correlation lag & minutes \\ \arrayrulecolor{tablerule}\hline
+$\widehat{\mathrm{se}}_h$ & Estimated standard error of the horizon slope & bp / surprise SD \\ \arrayrulecolor{tablerule}\hline
+$R^2$ & Fit statistic; incremental form defined in Section 8.2 & unitless \\ \arrayrulecolor{tablerule}\hline
+$\widehat Y_e^{\,0}$ & Frozen development-mean baseline prediction & bp \\ \arrayrulecolor{tablerule}\hline
+$G(h,k)$ & Synthetic fraction of conditional amplitude attained & unitless \\ \arrayrulecolor{tablerule}\hline
+$\widehat{(\cdot)},(\cdot)^*$ & Estimated quantity / bootstrap draw & as applicable \\ \arrayrulecolor{tablerule}\hline
+$r^A, r^B$ & Source and target returns in lag equations & bp \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule
+\caption[Mathematical symbols]{Mathematical symbols.}\label{tab:symbols}\\
+\end{longtable}}

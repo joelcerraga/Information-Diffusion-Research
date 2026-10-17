@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.6}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{23mm}L{15mm}C{26mm}C{20mm}C{17mm}C{17mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Type} & \textbf{Series} & \textbf{Development} & \textbf{Validation} & \textbf{Later} & \textbf{Pooled} & \textbf{Pooled \%} \\ \midrule
+Statements & SPX & 30/39 & 3/8 & 16/16 & 49/63 & 77.8\% \\ \arrayrulecolor{tablerule}\hline
+Statements & NSX & 39/39 & 3/8 & 16/16 & 58/63 & 92.1\% \\ \arrayrulecolor{tablerule}\hline
+Statements & EURUSD & 39/39 & 3/8 & 16/16 & 58/63 & 92.1\% \\ \arrayrulecolor{tablerule}\hline
+Minutes & SPX & 31/40 & 4/8 & 16/17 & 51/65 & 78.5\% \\ \arrayrulecolor{tablerule}\hline
+Minutes & NSX & 40/40 & 4/8 & 16/17 & 60/65 & 92.3\% \\ \arrayrulecolor{tablerule}\hline
+Minutes & EURUSD & 39/40 & 4/8 & 17/17 & 60/65 & 92.3\% \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Complete-window data coverage]{Complete-window data coverage}\label{tab:coverage}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Accepted / planned windows. Every minute from $-61$ to $+25$ must be present and valid. No interpolation or forward filling is used.\par}
+\end{table}

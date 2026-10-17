@@ -1,0 +1,135 @@
+[
+  {
+    "number": 1,
+    "title": "Minute log return",
+    "latex": "r_{e,a,t}=10^4\\log\\!\\left(P_{e,a,t}/P_{e,a,t-1}\\right)",
+    "explanation": "Returns in basis points; one basis point is 0.01 percent.",
+    "caption": "Equation (1). Minute log return."
+  },
+  {
+    "number": 2,
+    "title": "Cumulative event-time response",
+    "latex": "Y_{e,a}(h)=10^4\\log\\!\\left(P_{e,a,h-1}/P_{e,a,-1}\\right)",
+    "explanation": "A bar is labelled by its start minute. The close of bar h−1 is the horizon-h endpoint.",
+    "caption": "Equation (2). Cumulative event-time response."
+  },
+  {
+    "number": 3,
+    "title": "Rate changes in basis points",
+    "latex": "\\mathbf{x}_e=100\\,\\left(\\mathrm{MP1}_e,\\mathrm{MP2}_e,\\mathrm{ED2}_e,\\mathrm{ED3}_e,\\mathrm{ED4}_e\\right)^{\\mathsf T}",
+    "explanation": "USMPD rate changes are supplied in percentage points.",
+    "caption": "Equation (3). Rate changes in basis points."
+  },
+  {
+    "number": 4,
+    "title": "Frozen rate-surprise factor",
+    "latex": "z_e=\\frac{\\mathbf{w}^{\\mathsf T}(\\mathbf{x}_e-\\bar{\\mathbf{x}}_{\\mathrm{dev}})}{s_{\\mathrm{dev}}}",
+    "explanation": "The loading vector, centre and scale are fitted on 39 development statements, then held fixed.",
+    "caption": "Equation (4). Frozen rate-surprise factor."
+  },
+  {
+    "number": 5,
+    "title": "Unrestricted horizon regression",
+    "latex": "Y_{e,a}(h)=\\alpha_{a,h}+\\beta_{a,h}z_e+\\varepsilon_{e,a,h}",
+    "explanation": "Separate OLS regressions estimate a response association at each of 20 horizons.",
+    "caption": "Equation (5). Unrestricted horizon regression."
+  },
+  {
+    "number": 6,
+    "title": "Incremental response coefficient",
+    "latex": "b_{a,h}=\\beta_{a,h}-\\beta_{a,h-1},\\qquad \\beta_{a,0}=0",
+    "explanation": "Differences describe when the estimated cumulative association changes.",
+    "caption": "Equation (6). Incremental response coefficient."
+  },
+  {
+    "number": 7,
+    "title": "Predeclared lagged-response estimand",
+    "latex": "L_{a,5:20}=\\beta_{a,20}-\\beta_{a,5}",
+    "explanation": "Estimate directly by regressing Y(20)−Y(5) on the same event-level surprise.",
+    "caption": "Equation (7). Predeclared lagged-response estimand."
+  },
+  {
+    "number": 8,
+    "title": "Conditional adjustment curve",
+    "latex": "\\beta(h)=A\\left[1-(1-f)\\exp\\{-k(h-1)\\}\\right],\\qquad h\\geq1",
+    "explanation": "A is a signed long-run model amplitude; f is the first-minute fraction and k is a rate per minute.",
+    "caption": "Equation (8). Conditional adjustment curve."
+  },
+  {
+    "number": 9,
+    "title": "Time to a target adjustment fraction",
+    "latex": "t_q=\\begin{cases}1,&f\\geq q,\\\\1+k^{-1}\\log\\!\\left((1-f)/(1-q)\\right),&f<q.\\end{cases}",
+    "explanation": "This is conditional on the monotone model; it is not a model-free time at which all information is incorporated.",
+    "caption": "Equation (9). Time to a target adjustment fraction."
+  },
+  {
+    "number": 10,
+    "title": "Half-life of the remaining adjustment",
+    "latex": "\\tau_{1/2}=\\frac{\\log 2}{k}",
+    "explanation": "The remaining-gap half-life differs from time to 50 percent of total adjustment when f is nonzero.",
+    "caption": "Equation (10). Half-life of the remaining adjustment."
+  },
+  {
+    "number": 11,
+    "title": "HC3 covariance estimator",
+    "latex": "\\widehat V_{\\mathrm{HC3}}=(X^{\\mathsf T}X)^{-1}\\!\\left[\\sum_e\\frac{\\hat\\varepsilon_e^2\\,\\mathbf{x}_e^{R}(\\mathbf{x}_e^{R})^{\\mathsf T}}{(1-\\ell_e)^2}\\right](X^{\\mathsf T}X)^{-1}",
+    "explanation": "Here x superscript R is a regression row, distinct from the rate-input vector; ℓ is OLS leverage.",
+    "caption": "Equation (11). HC3 covariance estimator."
+  },
+  {
+    "number": 12,
+    "title": "Event-path wild-bootstrap draw",
+    "latex": "Y^*_{e}(h)=\\widehat Y_e(h)+v_e\\frac{\\widehat\\varepsilon_e(h)}{1-\\ell_e},\\qquad \\Pr(v_e=1)=\\Pr(v_e=-1)=\\tfrac12",
+    "explanation": "One sign per event is shared across all horizons, retaining within-event path dependence.",
+    "caption": "Equation (12). Event-path wild-bootstrap draw."
+  },
+  {
+    "number": 13,
+    "title": "Simultaneous response band",
+    "latex": "\\mathcal{B}_h=\\left[\\hat\\beta_h-c_{0.95}\\,\\widehat{\\mathrm{se}}_h,\\ \\hat\\beta_h+c_{0.95}\\,\\widehat{\\mathrm{se}}_h\\right]",
+    "explanation": "The critical value is the 95th percentile of the bootstrap maximum absolute studentised coefficient error across the 20 horizons.",
+    "caption": "Equation (13). Simultaneous response band."
+  },
+  {
+    "number": 14,
+    "title": "Realised variance in an event window",
+    "latex": "RV_{e,a}=\\sum_{t=0}^{19}r_{e,a,t}^{\\,2}",
+    "explanation": "Measured in squared basis points and compared with the selected matched weekday.",
+    "caption": "Equation (14). Realised variance in an event window."
+  },
+  {
+    "number": 15,
+    "title": "Paired prediction-loss difference",
+    "latex": "\\Delta_{\\mathrm{MSE}}=\\frac1N\\sum_{e=1}^{N}\\left[(Y_e-\\widehat Y_e)^2-(Y_e-\\widehat Y_e^{\\,0})^2\\right]",
+    "explanation": "Negative values favour the frozen surprise model over the development-mean baseline.",
+    "caption": "Equation (15). Paired prediction-loss difference."
+  },
+  {
+    "number": 16,
+    "title": "Predictive lead–lag association",
+    "latex": "r^B_{e,t}=\\mu_e+\\sum_{j=1}^{3}\\phi_j r^B_{e,t-j}+\\sum_{j=1}^{3}\\gamma_j r^A_{e,t-j}+u_{e,t}",
+    "explanation": "Event fixed effects and own-return lags precede exploratory tests of the three cross-series lags; event-cluster uncertainty is approximate.",
+    "caption": "Equation (16). Predictive lead–lag association."
+  },
+  {
+    "number": 17,
+    "title": "Monte Carlo standard error",
+    "latex": "\\mathrm{MCSE}(\\hat p)=\\sqrt{\\hat p(1-\\hat p)/M}",
+    "explanation": "M is the number of independent simulation replications; simulation performance estimates have their own uncertainty.",
+    "caption": "Equation (17). Monte Carlo standard error."
+  },
+  {
+    "number": 18,
+    "title": "Plateau reporting diagnostic",
+    "latex": "\\mathrm{CI}_{0.90}(\\beta_{20}-\\beta_{10})\\subset\\left(-0.25|\\hat\\beta_{20}|,\\ 0.25|\\hat\\beta_{20}|\\right)",
+    "explanation": "The margin depends on an estimated terminal response; this is a reporting heuristic, not a validated formal equivalence test.",
+    "caption": "Equation (18). Plateau reporting diagnostic."
+  },
+  {
+    "number": 19,
+    "title": "Audited source-clock mapping",
+    "latex": "T_{\\mathrm{UTC}}=T_{\\mathrm{source}}+5\\,\\mathrm{hours}-d_{\\mathrm{Europe}}(T_{\\mathrm{source}})",
+    "explanation": "dEurope is one hour during European summer time and zero otherwise. A02 records the evidence, scope and retrospective nature of this correction.",
+    "caption": "Equation (19). Audited source-clock mapping."
+  }
+]

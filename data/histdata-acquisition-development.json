@@ -1,0 +1,200 @@
+[
+  {
+    "symbol": "SPXUSD",
+    "year": 2017,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2017",
+    "path": "data/raw/histdata/SPXUSD/2017.zip",
+    "status": "downloaded",
+    "bytes": 2072451,
+    "sha256": "0df85b8f0f0c6adec40bd29bb8fb8290b5d58d9b551c99aa073a58f75297d58c",
+    "retrieved_utc": "2026-10-16T19:37:45.313181+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2018,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2018",
+    "path": "data/raw/histdata/SPXUSD/2018.zip",
+    "status": "downloaded",
+    "bytes": 2724034,
+    "sha256": "b29ee026c351470929208def4c65cb4bb0adfc252b9453646adb463ee22bdec0",
+    "retrieved_utc": "2026-10-16T19:37:45.424669+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2019,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2019",
+    "path": "data/raw/histdata/SPXUSD/2019.zip",
+    "status": "downloaded",
+    "bytes": 2795335,
+    "sha256": "c1f0eeba5b55834a8a6e3a88cd1d8ec69592d192419c1cd2a909a67a5aa324fe",
+    "retrieved_utc": "2026-10-16T19:37:56.366529+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2020,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2020",
+    "path": "data/raw/histdata/SPXUSD/2020.zip",
+    "status": "downloaded",
+    "bytes": 4048280,
+    "sha256": "29ef33d74507484ef6f8cb2b0beec0d4477fde1e5b582b07ca04366bd984c23a",
+    "retrieved_utc": "2026-10-16T19:37:56.570855+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2022,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2022",
+    "path": "data/raw/histdata/SPXUSD/2022.zip",
+    "status": "downloaded",
+    "bytes": 4512711,
+    "sha256": "fe8869fae70a4e536ce429daae9265e1904dc6323b5e6112ff13aa2bc5790c40",
+    "retrieved_utc": "2026-10-16T19:38:07.772820+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "SPXUSD",
+    "year": 2021,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/spxusd/2021",
+    "path": "data/raw/histdata/SPXUSD/2021.zip",
+    "status": "downloaded",
+    "bytes": 3997784,
+    "sha256": "14f2f6f6070e8a096f377d5d1ddf646c5c742f76912cc1fbe4ecbfb9d9221278",
+    "retrieved_utc": "2026-10-16T19:38:07.904938+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2017,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2017",
+    "path": "data/raw/histdata/NSXUSD/2017.zip",
+    "status": "downloaded",
+    "bytes": 3005614,
+    "sha256": "162b6e8b54b16dc67a31072c89cb7a48066920c7f61f513d3b2ffcce8b625213",
+    "retrieved_utc": "2026-10-16T19:38:19.049696+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2018,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2018",
+    "path": "data/raw/histdata/NSXUSD/2018.zip",
+    "status": "downloaded",
+    "bytes": 3560115,
+    "sha256": "0cab833575b5967f08718a5ad869a85aa5e5c408fbbe725c01925b1da44ef34f",
+    "retrieved_utc": "2026-10-16T19:38:19.161330+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2020,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2020",
+    "path": "data/raw/histdata/NSXUSD/2020.zip",
+    "status": "downloaded",
+    "bytes": 4782514,
+    "sha256": "896ff362259e56468f7a8acd32afa4dc21c309cf13a84e2c3e585dea0be4df84",
+    "retrieved_utc": "2026-10-16T19:38:31.023373+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2019,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2019",
+    "path": "data/raw/histdata/NSXUSD/2019.zip",
+    "status": "downloaded",
+    "bytes": 3929822,
+    "sha256": "f7e0ac7ce964c864793c8928058cef11d1a886c68876f42b3e42d5bc61732698",
+    "retrieved_utc": "2026-10-16T19:38:31.047339+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2022,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2022",
+    "path": "data/raw/histdata/NSXUSD/2022.zip",
+    "status": "downloaded",
+    "bytes": 5127487,
+    "sha256": "b6bfac92a74c36719812014a38ce8cfcad05b4f15aca0d0e9e0dc1b1b3a098e7",
+    "retrieved_utc": "2026-10-16T19:38:44.806851+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "NSXUSD",
+    "year": 2021,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/nsxusd/2021",
+    "path": "data/raw/histdata/NSXUSD/2021.zip",
+    "status": "downloaded",
+    "bytes": 4941583,
+    "sha256": "ea22aa9f9a10f234cde03428f8117b2725e550f45ca17eb95fb1e4a9792c2977",
+    "retrieved_utc": "2026-10-16T19:38:44.867924+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2017,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2017",
+    "path": "data/raw/histdata/EURUSD/2017.zip",
+    "status": "downloaded",
+    "bytes": 3365476,
+    "sha256": "0dcd66dc67d7af4716404a5315d376ee1e7eaebe292afbda3c1003d2dfa16f57",
+    "retrieved_utc": "2026-10-16T19:38:55.876969+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2018,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2018",
+    "path": "data/raw/histdata/EURUSD/2018.zip",
+    "status": "downloaded",
+    "bytes": 3433859,
+    "sha256": "3c478a0096426c7289db654c8b66235d8064fe56a9975282de8342fea7c170f1",
+    "retrieved_utc": "2026-10-16T19:38:55.991995+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2020,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2020",
+    "path": "data/raw/histdata/EURUSD/2020.zip",
+    "status": "downloaded",
+    "bytes": 3420002,
+    "sha256": "38efbafce27f0e15df0006cc413cc02a68a18cada4f3b99e9afd42e17dd2ff2c",
+    "retrieved_utc": "2026-10-16T19:39:07.045262+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2019,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2019",
+    "path": "data/raw/histdata/EURUSD/2019.zip",
+    "status": "downloaded",
+    "bytes": 3156192,
+    "sha256": "221fa4e0db549f48719273979ea4b1a2b0877f45f1147a8416ff8bbd055f5491",
+    "retrieved_utc": "2026-10-16T19:39:07.218484+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2021,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2021",
+    "path": "data/raw/histdata/EURUSD/2021.zip",
+    "status": "downloaded",
+    "bytes": 3285118,
+    "sha256": "64af4aa52958685a6889cfa15df400c62dc6ad543cf6ea10a13a0d3a7e01a563",
+    "retrieved_utc": "2026-10-16T19:39:18.285775+00:00",
+    "previous_errors": []
+  },
+  {
+    "symbol": "EURUSD",
+    "year": 2022,
+    "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/eurusd/2022",
+    "path": "data/raw/histdata/EURUSD/2022.zip",
+    "status": "downloaded",
+    "bytes": 3545446,
+    "sha256": "5ed361f3d93107f644834cac06870e830f9dc887d5aa5fde4b90c2accdf773f3",
+    "retrieved_utc": "2026-10-16T19:39:18.416716+00:00",
+    "previous_errors": []
+  }
+]

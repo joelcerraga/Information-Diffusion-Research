@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{9.7}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{27mm}L{23mm}C{8mm}C{8mm}C{8mm}C{8mm}C{25mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Sample} & \textbf{Type} & \textbf{T} & \textbf{P} & \textbf{S} & \textbf{I} & \textbf{Valid fits} & \textbf{Coverage} \\ \midrule
+Development & Statements & P & F & P & P & 96.0\% & 76.9\% \\ \arrayrulecolor{tablerule}\hline
+Development & Minutes & P & F & P & F & 21.6\% & 77.5\% \\ \arrayrulecolor{tablerule}\hline
+Later & Statements & P & F & P & F & 26.6\% & 100.0\% \\ \arrayrulecolor{tablerule}\hline
+Later & Minutes & F & F & F & F & 54.8\% & 94.1\% \\ \arrayrulecolor{tablerule}\hline
+Pooled & Statements & P & P & P & P & 83.4\% & 77.8\% \\ \arrayrulecolor{tablerule}\hline
+Pooled & Minutes & P & F & P & F & 17.6\% & 78.5\% \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Conditional speed reporting decisions]{Conditional speed reporting decisions}\label{tab:gates}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont P = pass, F = fail. T: terminal interval; P column: plateau diagnostic; S: shape; I: interior parameters. Valid fits must reach 90\%, and coverage must reach 80\% alongside minimum sample size. No row passes every gate; no empirical $t_{90}$ is reported.\par}
+\end{table}

@@ -1,0 +1,7 @@
+number,listing,source
+1,Source-clock mapping and complete-window construction,diffusion/histdata.py
+2,HC3 and event-path wild-bootstrap inference,diffusion/statistics.py
+3,Synthetic known-mechanism validation,diffusion/synthetic.py
+4,"Horizon, lag and chronological estimators",diffusion/empirical.py
+5,Executed notebook construction,scripts/build_notebooks.py
+6,"Interactive response, path and diffusion views",explorers/template.html

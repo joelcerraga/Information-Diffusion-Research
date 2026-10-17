@@ -1,0 +1,35 @@
+Acosta, M., Ajello, A., Bauer, M., Loria, F. and Miranda-Agrippino, S. (2026) ‘Financial market effects of FOMC communication: Evidence from a new event-study database’, Federal Reserve Bank of San Francisco Working Paper 2025-30. doi: 10.24148/wp2025-30.
+
+Davidson, R. and Flachaire, E. (2008) ‘The wild bootstrap, tamed at last’, Journal of Econometrics, 146(1), pp. 162–169. doi: 10.1016/j.jeconom.2008.08.003.
+
+Dukascopy Bank SA (n.d.) Historical data export. Available at: https://www.dukascopy.com/swiss/english/marketwatch/historical/ (Accessed: 16 October 2026).
+
+Fama, E.F. (1991) ‘Efficient capital markets: II’, The Journal of Finance, 46(5), pp. 1575–1617. doi: 10.1111/j.1540-6261.1991.tb04636.x.
+
+Federal Reserve Bank of San Francisco (2026) U.S. Monetary Policy Event-Study Database. Available at: https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/ (Accessed: 16 October 2026).
+
+Gürkaynak, R.S., Sack, B. and Swanson, E.T. (2005) ‘Do actions speak louder than words? The response of asset prices to monetary policy actions and statements’, International Journal of Central Banking, 1(1), pp. 55–93.
+
+Hasbrouck, J. (2007) Empirical market microstructure: The institutions, economics, and econometrics of securities trading. New York: Oxford University Press.
+
+HistData.com (n.d.a) Data files: Detailed specification. Available at: https://www.histdata.com/f-a-q/data-files-detailed-specification/ (Accessed: 16 October 2026).
+
+HistData.com (n.d.b) F.A.Q. / Support. Available at: https://www.histdata.com/f-a-q/ (Accessed: 16 October 2026).
+
+Hong, H., Lim, T. and Stein, J.C. (2000) ‘Bad news travels slowly: Size, analyst coverage, and the profitability of momentum strategies’, The Journal of Finance, 55(1), pp. 265–295.
+
+Hou, K. and Moskowitz, T.J. (2005) ‘Market frictions, price delay, and the cross-section of expected returns’, The Review of Financial Studies, 18(3), pp. 981–1020. doi: 10.1093/rfs/hhi023.
+
+Jarociński, M. and Karadi, P. (2020) ‘Deconstructing monetary policy surprises—The role of information shocks’, American Economic Journal: Macroeconomics, 12(2), pp. 1–43. doi: 10.1257/mac.20180090.
+
+Jordà, Ò. (2005) ‘Estimation and inference of impulse responses by local projections’, American Economic Review, 95(1), pp. 161–182. doi: 10.1257/0002828053828518.
+
+Kebe, M. and Uhl, M. (2024) ‘High-frequency effects of novel news on the EURUSD exchange rate’, Journal of Behavioral Finance, 25(2), pp. 194–207. doi: 10.1080/15427560.2022.2100386.
+
+MacKinlay, A.C. (1997) ‘Event studies in economics and finance’, Journal of Economic Literature, 35(1), pp. 13–39.
+
+MacKinnon, J.G. and White, H. (1985) ‘Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties’, Journal of Econometrics, 29(3), pp. 305–325. doi: 10.1016/0304-4076(85)90158-7.
+
+Morris, T.P., White, I.R. and Crowther, M.J. (2019) ‘Using simulation studies to evaluate statistical methods’, Statistics in Medicine, 38(11), pp. 2074–2102. doi: 10.1002/sim.8086.
+
+Nickell, S. (1981) ‘Biases in dynamic models with fixed effects’, Econometrica, 49(6), pp. 1417–1426. doi: 10.2307/1911408.

@@ -1,0 +1,54 @@
+{
+  "scheduled_statement_events": 63,
+  "minutes_events": 65,
+  "accepted_event_asset_pairs": 336,
+  "planned_event_asset_pairs": 384,
+  "primary_pooled_statements": 49,
+  "source_archives": 27,
+  "archived_source_bytes": 103505850,
+  "primary_stage_gates": [
+    {
+      "phase": "development",
+      "event_type": "Statements",
+      "asset": "SPX",
+      "planned": 39,
+      "accepted": 30,
+      "excluded": 9,
+      "matched": 29,
+      "coverage": 0.7692307692,
+      "minimum_n": 25,
+      "coverage_gate": false,
+      "sample_gate": false,
+      "unique_control_days": 29
+    },
+    {
+      "phase": "holdout",
+      "event_type": "Statements",
+      "asset": "SPX",
+      "planned": 16,
+      "accepted": 16,
+      "excluded": 0,
+      "matched": 16,
+      "coverage": 1.0,
+      "minimum_n": 10,
+      "coverage_gate": true,
+      "sample_gate": true,
+      "unique_control_days": 16
+    },
+    {
+      "phase": "validation",
+      "event_type": "Statements",
+      "asset": "SPX",
+      "planned": 8,
+      "accepted": 3,
+      "excluded": 5,
+      "matched": 3,
+      "coverage": 0.375,
+      "minimum_n": 6,
+      "coverage_gate": false,
+      "sample_gate": false,
+      "unique_control_days": 3
+    }
+  ],
+  "frozen_model_unchanged": true
+}

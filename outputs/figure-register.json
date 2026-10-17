@@ -1,0 +1,86 @@
+[
+  {
+    "number": 1,
+    "title": "Synthetic response paths",
+    "caption": "Figure 1. Six known mechanisms and their estimated responses. Shading is an event wild-bootstrap simultaneous band across 20 horizons; these are simulated data.",
+    "png": "outputs/figures/figure-01.png",
+    "svg": "outputs/figures/figure-01.svg"
+  },
+  {
+    "number": 2,
+    "title": "Coverage audit",
+    "caption": "Figure 2. Accepted event windows divided by planned events. Every required minute from −61 to +25 must be present and valid; missing bars are never filled.",
+    "png": "outputs/figures/figure-02.png",
+    "svg": "outputs/figures/figure-02.svg"
+  },
+  {
+    "number": 3,
+    "title": "Primary response across samples",
+    "caption": "Figure 3. SPX provider-quote response to the frozen rate-surprise factor after clock correction. Pooled estimates are retrospective. Chronological transfer follows a documented source-clock repair after the original holdout had been examined; sample eligibility is reported separately.",
+    "png": "outputs/figures/figure-03.png",
+    "svg": "outputs/figures/figure-03.svg"
+  },
+  {
+    "number": 4,
+    "title": "Assets and communication types",
+    "caption": "Figure 4. Pooled response curves with pointwise HC3 intervals. Panels have independent vertical scales. Asset and event-type comparisons are exploratory; the factor remains scaled to development statements.",
+    "png": "outputs/figures/figure-04.png",
+    "svg": "outputs/figures/figure-04.svg"
+  },
+  {
+    "number": 5,
+    "title": "Lagged response estimates",
+    "caption": "Figure 5. The additional 5-to-20-minute response and its 95% HC3 interval. An interval containing zero does not establish that adjustment is complete.",
+    "png": "outputs/figures/figure-05.png",
+    "svg": "outputs/figures/figure-05.svg"
+  },
+  {
+    "number": 6,
+    "title": "External window cross-check",
+    "caption": "Figure 6. The same nominal −10-to-+20-minute window compared with USMPD stock-index and futures returns. Agreement supports alignment; different instruments, quote conventions and boundary sampling prevent treating it as minute-level ground truth.",
+    "png": "outputs/figures/figure-06.png",
+    "svg": "outputs/figures/figure-06.svg"
+  },
+  {
+    "number": 7,
+    "title": "Event activity and matched days",
+    "caption": "Figure 7. First-20-minute realised variance relative to the matched weekday. Intervals are event-pair bootstrap intervals; a variance increase measures activity rather than the fraction of information absorbed.",
+    "png": "outputs/figures/figure-07.png",
+    "svg": "outputs/figures/figure-07.svg"
+  },
+  {
+    "number": 8,
+    "title": "Chronological prediction check",
+    "caption": "Figure 8. Frozen corrected-development predictions on later statements. Negative differences favour the surprise model. This post-audit transfer follows the A02 clock repair, not an untouched holdout; within-window inputs are retrospective and +20-minute publication latency is not modelled.",
+    "png": "outputs/figures/figure-08.png",
+    "svg": "outputs/figures/figure-08.svg"
+  },
+  {
+    "number": 9,
+    "title": "Lead–lag diagnostics",
+    "caption": "Figure 9. Pooled within-event minute-return correlations. A peak at zero is common co-movement; a nonzero-lag peak can also reflect quote timing or shared news and does not establish causation.",
+    "png": "outputs/figures/figure-09.png",
+    "svg": "outputs/figures/figure-09.svg"
+  },
+  {
+    "number": 10,
+    "title": "Influence of individual events",
+    "caption": "Figure 10. The pooled SPX 20-minute slope after omitting each accepted statement in turn. This evaluates event influence without removing inconvenient observations from the main estimate.",
+    "png": "outputs/figures/figure-10.png",
+    "svg": "outputs/figures/figure-10.svg"
+  },
+  {
+    "number": 11,
+    "title": "Sequential information releases",
+    "caption": "Figure 11. The first later-period statement, selected by date. The subsequent press conference introduces additional information; movements after that release cannot be attributed solely to delayed incorporation of the statement.",
+    "png": "outputs/figures/figure-11.png",
+    "svg": "outputs/figures/figure-11.svg"
+  },
+  {
+    "number": 12,
+    "title": "Clock-audit evidence",
+    "caption": "Figure 12. Independent download routes show that the documented clock misaligns the two series. Correcting the seasonal offset raises their minute-return correlation from −0.004 to 0.9995 on this probe. This checks timing rather than proving source independence or universal data quality.",
+    "png": "outputs/figures/figure-12.png",
+    "svg": "outputs/figures/figure-12.svg"
+  }
+]

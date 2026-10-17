@@ -1,0 +1,92 @@
+[
+  {
+    "key": "acosta2026",
+    "harvard": "Acosta, M., Ajello, A., Bauer, M., Loria, F. and Miranda-Agrippino, S. (2026) ‘Financial market effects of FOMC communication: Evidence from a new event-study database’, Federal Reserve Bank of San Francisco Working Paper 2025-30. doi: 10.24148/wp2025-30.",
+    "url": "https://www.frbsf.org/wp-content/uploads/wp2025-30.pdf"
+  },
+  {
+    "key": "davidson2008",
+    "harvard": "Davidson, R. and Flachaire, E. (2008) ‘The wild bootstrap, tamed at last’, Journal of Econometrics, 146(1), pp. 162–169. doi: 10.1016/j.jeconom.2008.08.003.",
+    "url": "https://russell-davidson.research.mcgill.ca/articles/wild8-euro.pdf"
+  },
+  {
+    "key": "dukascopy",
+    "harvard": "Dukascopy Bank SA (n.d.) Historical data export. Available at: https://www.dukascopy.com/swiss/english/marketwatch/historical/ (Accessed: 16 October 2026).",
+    "url": "https://www.dukascopy.com/swiss/english/marketwatch/historical/"
+  },
+  {
+    "key": "fama1991",
+    "harvard": "Fama, E.F. (1991) ‘Efficient capital markets: II’, The Journal of Finance, 46(5), pp. 1575–1617. doi: 10.1111/j.1540-6261.1991.tb04636.x.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1991.tb04636.x"
+  },
+  {
+    "key": "usmpd",
+    "harvard": "Federal Reserve Bank of San Francisco (2026) U.S. Monetary Policy Event-Study Database. Available at: https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/ (Accessed: 16 October 2026).",
+    "url": "https://www.frbsf.org/wp-content/uploads/USMPD.xlsx"
+  },
+  {
+    "key": "gurkaynak2005",
+    "harvard": "Gürkaynak, R.S., Sack, B. and Swanson, E.T. (2005) ‘Do actions speak louder than words? The response of asset prices to monetary policy actions and statements’, International Journal of Central Banking, 1(1), pp. 55–93.",
+    "url": "https://www.ijcb.org/journal/v1n1/do-actions-speak-louder-words-response-asset-prices-monetary-policy-actions-and"
+  },
+  {
+    "key": "hasbrouck2007",
+    "harvard": "Hasbrouck, J. (2007) Empirical market microstructure: The institutions, economics, and econometrics of securities trading. New York: Oxford University Press.",
+    "url": "https://academic.oup.com/book/52241"
+  },
+  {
+    "key": "histdata-a",
+    "harvard": "HistData.com (n.d.a) Data files: Detailed specification. Available at: https://www.histdata.com/f-a-q/data-files-detailed-specification/ (Accessed: 16 October 2026).",
+    "url": "https://www.histdata.com/f-a-q/data-files-detailed-specification/"
+  },
+  {
+    "key": "histdata-b",
+    "harvard": "HistData.com (n.d.b) F.A.Q. / Support. Available at: https://www.histdata.com/f-a-q/ (Accessed: 16 October 2026).",
+    "url": "https://www.histdata.com/f-a-q/"
+  },
+  {
+    "key": "hong2000",
+    "harvard": "Hong, H., Lim, T. and Stein, J.C. (2000) ‘Bad news travels slowly: Size, analyst coverage, and the profitability of momentum strategies’, The Journal of Finance, 55(1), pp. 265–295.",
+    "url": "https://stein.scholars.harvard.edu/publications/bad-news-travels-slowly-size-analyst-coverage-and-profitability-momentum-strategi"
+  },
+  {
+    "key": "hou2005",
+    "harvard": "Hou, K. and Moskowitz, T.J. (2005) ‘Market frictions, price delay, and the cross-section of expected returns’, The Review of Financial Studies, 18(3), pp. 981–1020. doi: 10.1093/rfs/hhi023.",
+    "url": "https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/3/2019/09/MarketFrictionsPriceDelayandtheCross-SectionofExpectedReturns.pdf"
+  },
+  {
+    "key": "jarocinski2020",
+    "harvard": "Jarociński, M. and Karadi, P. (2020) ‘Deconstructing monetary policy surprises—The role of information shocks’, American Economic Journal: Macroeconomics, 12(2), pp. 1–43. doi: 10.1257/mac.20180090.",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mac.20180090"
+  },
+  {
+    "key": "jorda2005",
+    "harvard": "Jordà, Ò. (2005) ‘Estimation and inference of impulse responses by local projections’, American Economic Review, 95(1), pp. 161–182. doi: 10.1257/0002828053828518.",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/0002828053828518"
+  },
+  {
+    "key": "kebe2024",
+    "harvard": "Kebe, M. and Uhl, M. (2024) ‘High-frequency effects of novel news on the EURUSD exchange rate’, Journal of Behavioral Finance, 25(2), pp. 194–207. doi: 10.1080/15427560.2022.2100386.",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/15427560.2022.2100386"
+  },
+  {
+    "key": "mackinlay1997",
+    "harvard": "MacKinlay, A.C. (1997) ‘Event studies in economics and finance’, Journal of Economic Literature, 35(1), pp. 13–39.",
+    "url": "https://www.bu.edu/econ/files/2011/01/MacKinlay-1996-Event-Studies-in-Economics-and-Finance.pdf"
+  },
+  {
+    "key": "mackinnon1985",
+    "harvard": "MacKinnon, J.G. and White, H. (1985) ‘Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties’, Journal of Econometrics, 29(3), pp. 305–325. doi: 10.1016/0304-4076(85)90158-7.",
+    "url": "https://www.econstor.eu/bitstream/10419/189084/1/qed_wp_0537.pdf"
+  },
+  {
+    "key": "morris2019",
+    "harvard": "Morris, T.P., White, I.R. and Crowther, M.J. (2019) ‘Using simulation studies to evaluate statistical methods’, Statistics in Medicine, 38(11), pp. 2074–2102. doi: 10.1002/sim.8086.",
+    "url": "https://discovery.ucl.ac.uk/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf"
+  },
+  {
+    "key": "nickell1981",
+    "harvard": "Nickell, S. (1981) ‘Biases in dynamic models with fixed effects’, Econometrica, 49(6), pp. 1417–1426. doi: 10.2307/1911408.",
+    "url": "https://www.jstor.org/stable/1911408"
+  }
+]

@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.22}\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}L{24mm}L{64mm}X@{}}
+\toprule\rowcolor{tablehead}
+\textbf{Case} & \textbf{True slope $\beta(h)$} & \textbf{Purpose} \\ \midrule
+Immediate & $-25$ & Full response by the first completed minute \\ \arrayrulecolor{tablerule}\hline
+Gradual & $-25[1-0.75e^{-0.22(h-1)}]$ & Known monotone adjustment \\ \arrayrulecolor{tablerule}\hline
+Reversal & $-10-30e^{-(h-1)/4}$ & Large early response subsequently recedes \\ \arrayrulecolor{tablerule}\hline
+Null & $0$ & No conditional response \\ \arrayrulecolor{tablerule}\hline
+Continuing & $-3-1.5(h-1)$ & No plateau within the observation window \\ \arrayrulecolor{tablerule}\hline
+Stale & $0$ if $h\leq2$; $-25$ otherwise & Delayed quote observation of an immediate response \\ \arrayrulecolor{tablerule}\hline
+\arrayrulecolor{black}\bottomrule\end{tabularx}}
+\caption[Known synthetic response mechanisms]{Known synthetic response mechanisms}\label{tab:synthetic-design}
+\vspace{3pt}{\centering\fontsize{9.3}{11.5}\selectfont Slopes are bp per simulated surprise SD; $h=1,\ldots,20$. The mechanisms share noise draws within each sample-size/replication pair.\par}
+\end{table}
